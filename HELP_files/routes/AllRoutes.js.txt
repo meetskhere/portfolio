@@ -1,0 +1,23 @@
+The `AllRoutes.js` file configures the routing for different pages within a React application using the `react-router-dom` package. Here is a summary of its key functionalities:
+
+1. **Routing Setup:**
+   - Imports `Routes` and `Route` components from the `react-router-dom` library to define the application's routing structure.
+
+2. **Page Components:**
+   - Imports page components (`Dashboard`, `Resume`, `AboutMe`, `PageNotFound`) from the `../pages` directory to associate them with specific routes.
+
+3. **Route Definitions:**
+   - Uses the `Route` component to define various paths and map them to specific page components.
+   - Configures the following routes:
+     - `/`: Associates the root URL with the `Dashboard` component.
+     - `/portfolio/Resume`: Maps the `/portfolio/Resume` path to the `Resume` component.
+     - `/aboutMe`: Associates the `/aboutMe` path with the `AboutMe` component.
+     - `*` (Wildcard): Matches any undefined route and renders the `PageNotFound` component. This route serves as a fallback for undefined paths.
+
+4. **Wrapping Components:**
+   - Wraps the `Route` components within the `Routes` component to establish the routing structure for the entire application.
+
+5. **Animation Support:**
+   - Utilizes the `AnimatePresence` component from `framer-motion` to handle presence-based animations when transitioning between routes, although this specific implementation doesn't include animations in the provided code snippet.
+
+Overall, `AllRoutes.js` orchestrates the navigation logic by defining routes and associating them with corresponding page components, ensuring that users are directed to the appropriate content based on the URL paths they access within the React application.

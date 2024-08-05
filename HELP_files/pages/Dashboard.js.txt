@@ -1,0 +1,16 @@
+The `Dashboard.js` file contains a React functional component named `Dashboard`. It imports various components and data files, such as `Header`, `Footer`, `ScrollUp`, `Slides`, `Skill`, and JSON data files containing academic and portfolio information. The component renders a dashboard interface comprising several sections:
+
+1. **Header:** Includes social media icons linked to LinkedIn, GitHub, and Skype, allowing users to navigate to the respective profiles.
+
+2. **Home Section:**
+   - Displays a profile image in a blob-shaped SVG mask.
+   - Shows social media links and a scroll-down button.
+   - Presents personal information like name, title, a brief summary, and a "Contact Me" button linked to the contact section.
+
+3. **Portfolio Section:** Displays the most recent work using the `Slides` component, which is fed data from the `Portfolio.json` file.
+
+4. **Skills Section:** Utilizes the `Skill` component to showcase technical skills retrieved from the `AcademicCV.json` file.
+
+The code includes some commented-out sections that are either alternative implementations or components/features that are not currently active in the rendered dashboard, such as services, type animations, and motion effects.
+
+Overall, the `Dashboard` component creates a user interface for a personal portfolio or profile, presenting personal information, recent works, and technical skills.

@@ -1,0 +1,225 @@
+{
+  "name": "Shubham Kumar",
+  "title": "Senior Data Analyst, KPIT",
+  "brief_summary": "Shubham is an electrical engineer (by passion), computer techie, movie-buff, artist, avid reader, photographer, thinker and maker. He has some excellent interpersonal and communication abilities and possess a wide range of technical skill. He enjoys being part of a team, as well as managing, motivating, and training a productive team, thrives in high pressure and challenging working environment. He believes that engineering needs more creativity, ability to abstract and imagine heterogeneous systems. As in general, research needs more experience and knowledge.",
+  "location":{
+    "residential_location":"Guwahati, India",
+    "work_location": "Hinjewadi Phase 3, Pune, MH"
+  },
+  "brief_info":{
+    "experiences": ["05+", "05+"],
+    "projects": "10+",
+    "courses": "20+"
+  },
+  "contact": {
+    "email": [
+      "shubham.kumar2@kpit.com",
+      "meetshubhamkumarhere@gmail.com"
+    ],
+    "mobile": {
+      "work": "+91 7391017360",
+      "other": "+91 8456049049"
+    },
+    "skype": "shubham.kumar36511"
+  },
+  "areas_of_interest": [
+    "Analog-Digital/Mixed Signal Circuit Designing and Simulation especially for IoT based systems",
+    "Automatic control systems with special focus on robust and optimal control mechanism",
+    "Signal processing and communication systems",
+    "Image processing: character & pattern recognition system",
+    "IoT based secure communication and networking",
+    "Wearable gadgets functioning: signal acquisition, processing, transmission and communication"
+  ],
+  "education": [
+    {
+      "year": "2009-2011",
+      "degree": "AISSE-CBSE (Class X)",
+      "school": "St. Francis D’ Assisi Senior Secondary School, Guwahati",
+      "score": "CGPA 10",
+      "subjects": "English Communication, Hindi, Mathematics, Science, Social Science"
+    },
+    {
+      "year": "2011-2013",
+      "degree": "AISSCE-CBSE (Class XII)",
+      "school": "S. B. O. A. Public School, Guwahati",
+      "score": "80.6%",
+      "subjects": "English Core, Physics, Chemistry, Mathematics, Computer Science, Physical Education"
+    },
+    {
+      "year": "2014-2018",
+      "degree": "Bachelor of Technology (Honors) (4-years)",
+      "school": "Indian Institute of Technology (IIT), Bhubaneswar",
+      "score": "CGPA 7",
+      "subjects": "Electrical Engineering"
+    }
+  ],
+  "achievements": {
+    "scholastic": [
+      "Selected in top 0.1% students in the JEE-Mains 2014",
+      "Among the top-25 candidates in the State-level Engineering Entrance Exam: Assam CEE 2014",
+      "Selected for INSPIRE Winter Science Camp 2010 in Class IX hosted by IIT Guwahati for class IX, X toppers",
+      "Secured first rank consistently for 2003-2011 (before dropping out in 2011) in the Annual Art Examinations conducted by Art Training Centre, Guwahati, Assam affiliated under Bangiya Sangeet Parishad, Kolkata, West Bengal",
+      "Awarded the prestigious Ankan Bivakar (Master Artist) by the Bangiya Sangeet Parishad in 2009-10",
+      "Awarded First Prize in the Creative Craft: International Art & Craft Contest 2008- School Level in Class VIII"
+    ],
+    "non_scholastic": [
+      "Key member of the Badminton Team and played badminton tournaments for the Institute",
+      "Core Head of Events Management Team of Institute’s Alumni Cell",
+      "A former core member of the RISC (Robotics and Intelligent Systems Club), took part in many events organized in the Institute",
+      "Participates actively in online tutoring platform: EdX, Coursera and Udemy for courses on Electrical Engineering, standard C and C++ Programming etc.",
+      "Maintains my own blog at Wordpress.com: www.meetshubhamkumarhere.wordpress.com",
+      "Passionate Graphics Designer (especially interested at DTP) using software tools such as Adobe Photoshop, Adobe Illustrator, Adobe Fireworks, Adobe InDesign, Adobe InCopy and Adobe Acrobat Pro"
+    ]
+  },
+  "projects": [
+    {
+      "name": "SCI-CALC",
+      "duration": "JULY, 2013-JUNE, 2018",
+      "period": "5 years",
+      "description": "A CLI based general purpose complete scientific calculator programmed in C++ with lots of innovative and detailed features having over 4000+ lines of code.",
+      "status": "Completed"
+    },
+    {
+      "name": "SR-DOMOTICA",
+      "duration": "MAY-JULY, 2016",
+      "description": "A Voice Controlled Home Automation system having connectivity using Bluetooth (less-distant communication) and GSM (much-distant communication) with an innovatively designed Android Application interface. Status: Completed."
+    },
+    {
+      "name": "SOULEVA",
+      "duration": "JULY-SEPTEMBER, 2016",
+      "description": "A simple Sound Level Monitoring System, to detect any audio activity: gives information about frequency (Hz), Voltage amplitude (V), Loudness (in dB-A) in the LCD panel, and display the waveform shape in real-time on a GLCD panel using Arduino MEGA 2560. Status: Completed."
+    },
+    {
+      "name": "IOT-BASED SENSORY DATA ANALYSIS",
+      "duration": "SEPTEMBER-NOVEMBER, 2016",
+      "description": "Made a simple IoT based Vibration and Temperature detection module; send the generated data to the computer using MCU ATMega328 PU via serial to USB connector, for sending the data on the Internet for displaying real-time signal variation and its data analysis. Status: Completed."
+    },
+    {
+      "name": "AIDE- A SMART GOGGLE",
+      "duration": "OCTOBER, 2016-JUNE, 2018",
+      "description": "It is a wearable Smart Goggle System, it is an assistant (or helper), to perform simple tasks just by doing eye movements. Status: Completed"
+    },
+    {
+      "name": "INTERNSHIP: ELECTRONIC & RADAR DEVELOPMENT ESTABLISHMENT (DRDO), BENGALURU",
+      "duration": "MAY-JULY, 2017",
+      "description": "We build an FMCW based RADAR Design for Object’s position and velocity  Detection in 2D along with building the Graphical User Interface (GUI) of the MATLAB App (My RADAR) & tested the corresponding algorithms in Simulink Environment. Status: Completed."
+    },
+    {
+      "name": "B. TECH. (H) PROJECT: IOT-BASED AUTO-TRANSLATION OF GESTURE ANIMATION SYNTHESIS SYSTEM FOR BODY AREA NETWORK (BAN)",
+      "duration": "JULY, 2017-MAY, 2018",
+      "description": "The aim of the project is to make a Gesture Animation Synthesis System that utilizes hand gestures as input to control or interact with connected devices without physically touching them so as to enables humans to communicate with the machine which forms the basis for Human Machine Interaction (HMI) and interact naturally without taking aid of any mechanical devices. Status: Completed."
+    }
+  ],
+  "other_courses": [
+    {
+      "name": "MATHWORKS MATLAB + RASPBERRY PI WORKSHOP 2016",
+      "icon_url": [
+        ""
+      ],
+      "details": [
+        "Hosted by Mathworks (India-HQ Bangalore) Senior Hardware Engineering Division employee at IIT Bhubaneswar on Photo and Video Processing after Data acquisition (through Microsoft Kinect and RaspiCam for Raspberry Pi)",
+        "Followed by a hands-on training on Simulink environment to develop models for the same."
+      ]
+    },
+    {
+      "name": "NETWORK BULLS EDUCATING NETWORK with E-CELL, IIT BOMBAY",
+      "icon_url": [
+        ""
+      ],
+      "details": [
+        "Understanding fundamentals of Computer Networking (routing switching technologies along with IP addressing schemes, routing basics, switching, WAN technologies, Network Security fundamentals, Network Automation and Network Programmability basics) & creating networking models on Cisco Packet Tracer Software."
+      ]
+    },
+    {
+      "name": "INDWELL AUTOMATION with DESIGN & INNOVATION CENTRE, IIT BHUBANESWAR",
+      "icon_url": [
+        ""
+      ],
+      "details": [
+        "PLC Training (Introduction, types, hardware and software, micro and modular PLCs, logic development tricks, Important instructions, Industrial programs and industrial automation devices)",
+        "HMI Training (Introduction, hardware and software, operator panel and touch panel, HMI screen development, PLC interface, security level and P/W protection)",
+        "SCADA Training (Introduction, different tag creation, drive configuration, tags configuration, screens development, device tagging and PLC communication)",
+        "DRIVES Training (Introduction, parameter setting, multi speed, wiring, PLC interface)"
+      ]
+    },
+    {
+      "name": "KPIT ECODE-GENESIS TRAINING (JULY-SEPTEMBER, 2018)",
+      "icon_url": [
+        ""
+      ],
+      "details": [
+        "Intensive training on standard C, embedded C (ATmega series - AVR), C++, Java SE, Javascript + NodeJS, Python, Azure Cloud Computing."
+      ]
+    }
+  ],
+  "technical_skills" : [
+    {
+      "title": "Programming Languages",
+      "years": "More than 5 years",
+      "skills": [
+        { "name": "Standard C", "percentage": "60%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "C++ Language", "percentage": "40%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "SQL", "percentage": "30%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "Python 3", "percentage": "80%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "Embedded C (ARM)", "percentage": "40%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "MATLAB", "percentage": "50%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] }
+      ]
+    },
+    {
+      "title": "Application Software",
+      "years": "More than 5 years",
+      "skills": [
+        { "name": "MathWorks MATLAB + Simulink 2014", "percentage": "50%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "Cadence OrCAD + Allegro SPB 16.6", "percentage": "30%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "Dassault SolidWorks 2014", "percentage": "20%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "Atmel AVR Studio 7", "percentage": "20%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "Google Android Studio 2.1", "percentage": "20%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "Microsoft Visual Studio 2013", "percentage": "30%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "Microsoft SQL Server 2014", "percentage": "25%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "Eclipse IDE (for JAVA) 4.1", "percentage": "20%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "Microsoft Office + Visio + Project 2010", "percentage": "40%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] },
+        { "name": "COMSOL Multiphysics 4.3", "percentage": "45%", "details":[
+          "lskdjf","slkdjf", "sldkjf"
+        ] }
+      ]
+    }
+  ],
+  "other_activities": {
+    "Associate Team Member": "Actively worked for the Institute annual Techno-Management fest: Wissenaire under the Web & Design Team as the Graphics Designer",
+    "Badminton Team": "A Key Member of the Badminton Team and played badminton tournaments for the Institute",
+    "Events Management": "A Core Head of Events Management Team of Institute’s Alumni Cell",
+    "IIT BBS RISC Club": "A former core member of the RISC (Robotics and Intelligent Systems Club), took part in many events organized within and outside our Institute",
+    "Blog": "Maintains my own technical and personal blog at Medium and Wordpress respectively",
+    "2D Graphics Design": "A Passionate Graphics Designer of Magazine, Poster, Flyer, Product Brochure etc. using software tools such as Adobe Photoshop, Adobe Illustrator, Adobe Fireworks, Adobe InDesign, Adobe InCopy and Adobe Acrobat Pro"
+  }
+}

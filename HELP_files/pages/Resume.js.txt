@@ -1,0 +1,21 @@
+The `Resume.js` file is a React functional component that handles the rendering of a resume or CV-related content. It includes several sections such as educational qualifications, projects, achievements, areas of interests, courses enrolled, extracurricular activities, work experience, and projects undertaken during an industrial experience. Here is a summary of its key functionalities:
+
+1. **Qualification Tabs and Content Switching:**
+   - Utilizes tabs (`education` and `work`) to switch between sections representing educational and industrial qualifications.
+   - Handles tab changes with `handleTabClick` function and updates the `activeTab` state accordingly.
+
+2. **Effect for Scrolling:**
+   - Uses `useEffect` to scroll to the top of the window when the active tab changes.
+   - Implements a delay before scrolling to ensure proper rendering of the content switch animation.
+
+3. **Content Rendering:**
+   - Renders educational qualifications with information about degrees earned, projects, internships, achievements, areas of interests, courses enrolled, and extracurricular activities.
+   - Displays industrial work experience, detailed projects undertaken, and potentially additional sections that are currently commented out.
+
+4. **Data Handling:**
+   - Fetches data from JSON files (`AcademicCV.json` and `IndustrialCV.json`) to populate the resume sections with educational and industrial information.
+
+5. **Components:**
+   - Utilizes various custom components like `QualificationTable`, `Qualification`, `BulletCard`, `Cards`, `Experience`, `Modal`, `DetailExperienceModal`, `ScrollUp`, `Footer`, and `Header` to structure and display the content in each section.
+
+Overall, the `Resume.js` component organizes and presents comprehensive information related to academic achievements, projects, industrial experience, and additional relevant details within a resume or CV format.

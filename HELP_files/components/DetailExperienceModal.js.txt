@@ -1,0 +1,32 @@
+The "DetailExperienceModal.js" file contains a React functional component named `DetailExperienceModal`. This component generates a grid of items, each representing a detailed experience summary with an associated modal that displays contributions related to that experience.
+
+Here's a summary of its content:
+
+1. **Imports**:
+   - **useState**: Imports the `useState` hook from 'react' to manage state within the component.
+
+2. **DetailExperienceModal Component**:
+   - Functional component defined using arrow function syntax.
+   - Takes in a prop `data`, presumably containing detailed experience information.
+
+3. **State Management**:
+   - Initializes a state variable `modalOpen` using the `useState` hook to track the open state of each modal. This state object uses indices as keys to manage the open/close state of individual modals.
+
+4. **Functionality**:
+   - Maps through `data.detailed_summary.experience_details` to generate a grid of items, each representing a detailed experience summary.
+   - Each item displays various details such as project, client, organization, domain, environment, project description, period, duration, and a button to toggle a modal displaying contribution details.
+
+5. **Rendering**:
+   - Generates a card-like structure for each detailed experience.
+   - Displays information such as project name, client, organization, domain, environment, project description, period, and duration.
+   - Includes a button to trigger the modal to show contributions related to the specific experience.
+
+6. **Modal Component**:
+   - Displays a modal associated with each experience item.
+   - Clicking on the "My Contribution" button toggles the display of this modal.
+   - The modal contains contribution details fetched from `detail.contribution`, displaying them in a list format.
+
+7. **Event Handling**:
+   - Utilizes `onClick` event handlers to toggle the modal's visibility when clicking the "My Contribution" button or the close button within the modal.
+
+Overall, the `DetailExperienceModal` component is designed to present a grid of detailed experience items. It enables users to view additional contribution details by toggling modals associated with each experience item, providing an interactive way to explore contributions related to specific projects or experiences.

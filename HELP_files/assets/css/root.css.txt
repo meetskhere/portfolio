@@ -1,0 +1,17 @@
+The `root.css` file contains a set of CSS variables used for consistent styling across a web application. Here is a summary of its key components:
+
+### Google Fonts Import
+- Imports the "Poppins" font from Google Fonts for various text elements in different weights (`400`, `500`, `600`).
+
+### Variables Declaration
+- Defines root variables using `:root`, enabling centralized management of colors, typography, margins, font weights, and z-indexes used throughout the application.
+- Colors are established using HSL (Hue, Saturation, Lightness) format, providing primary and secondary color variations along with variations for text, input, body, containers, scrollbar, and scroll thumb.
+- Specifies font family, sizes, font weights, and margin bottom values for different elements.
+  
+### Media Query for Large Devices
+- Adjusts font sizes defined in the root variables for larger devices using a media query based on the minimum width of `968px`.
+
+### Dark Theme Variables
+- Includes a set of variables specifically for a dark theme by adjusting the colors for elements like titles, text, inputs, body, containers, scrollbar, and scroll thumb when the `body` has the class `dark-theme`.
+
+These variables allow for easy and consistent theming across the application and facilitate quick adjustments to styling properties throughout the site. They're especially useful for maintaining design consistency and enabling theme customization in the application.

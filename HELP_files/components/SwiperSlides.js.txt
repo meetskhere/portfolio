@@ -1,0 +1,28 @@
+The "SwiperSlides.js" file contains a React component named `SwiperSlides` responsible for displaying slides using Swiper functionalities. Here's a summary of its content:
+
+1. **Component Structure**:
+   - Renders a component named `SwiperSlides` that accepts a prop named `data`.
+
+2. **Dependencies and Imports**:
+   - Imports `Link` from 'react-router-dom'.
+   - Imports `useState` from 'react'.
+   - Imports `JsonPortfolio` from "../assets/json/Portfolio.json".
+   - Imports required styles from "../assets/css/Style.css".
+
+3. **State Management**:
+   - Utilizes the `useState` hook to manage the state of the current slide with `currentSlide` and `setCurrentSlide` functions.
+
+4. **Rendering Slides**:
+   - Maps over the provided `data.content` array to render individual slides.
+   - Each slide contains an `img` tag with a `src` attribute derived from the data provided in the `img`, `title`, and `desc` properties.
+   - Renders a title, description, and a link using the `Link` component from 'react-router-dom'.
+   - The image source (`src`) is generated dynamically by combining the base path and the specified image name.
+
+5. **Function to Get Random Image**:
+   - Defines a function named `getRandomImage` that selects a random image URL from the `JsonPortfolio.imgURL` array.
+
+6. **Export**:
+   - Exports the `SwiperSlides` component using the named export syntax, allowing its usage in other parts of the application to display slides with associated content, images, titles, descriptions, and links.
+
+7. **Unused Code**:
+   - Contains commented-out code (`handleNextSlide` function) that might have been intended for handling the transition to the next slide, but it's currently not being used.

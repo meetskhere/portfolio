@@ -1,0 +1,76 @@
+The provided `style.css` file contains a comprehensive set of CSS rules for styling a website. Here's a summary of its contents:
+
+1. **Importing External Stylesheet**:
+   - Imports an external stylesheet named "root.css".
+
+2. **Scrollbar Customization**:
+   - Styles the appearance of the scrollbar using `-webkit-scrollbar`.
+
+3. **Dark/Light Button Styling**:
+   - Styles for a button that toggles between dark and light themes.
+
+4. **Base Styling**:
+   - Resets default styling for elements like `<body>`, `<h1>`, `<ul>`, `<a>`, `<img>`, etc.
+   - Defines global styles for HTML, body, headings (`h1` to `h4`), unordered lists (`ul`), links (`a`), and images (`img`).
+
+5. **Reusable CSS Classes**:
+   - Defines reusable CSS classes for sections (`section`), section titles, subtitles, and specific layout adjustments.
+
+6. **Layout Styles**:
+   - Styles for specific layout components like slide-in and slide-out elements, grid layouts, headers, and navigation bars.
+
+7. **Navigation Styling**:
+   - Styles for the navigation menu, logo, links, toggle buttons, and responsive design adjustments.
+
+8. **Home Page Styling**:
+   - Styles for the home section, social icons, titles, descriptions, scroll buttons, and mouse icons.
+
+9. **Button Styling**:
+   - Styles for different types of buttons, including hover effects and variations.
+
+10. **About Section Styling**:
+    - Styles for about section content, images, descriptions, and information.
+
+11. **Category Tabs and Sections Styling**:
+    - Styles for category tabs and sections, including layout adjustments and media query styling.
+
+12. **Skills Section Styling**:
+    - Styles for skill set displays, headers, icons, progress bars, and their animations.
+
+13. **Card and Interest Styling**:
+    - Styles for card-based displays, interests sections, animations, and media query adjustments.
+
+14. **Educational Qualification Styling**:
+    - Styles for educational qualifications, tables, animations, and media query adjustments.
+
+15. **Qualification Tabs Styling**:
+    - Styles for qualification tabs, buttons, data display, and media query adjustments.
+
+16. **Services Section Styling**:
+    - Styles for services section layout, content, icons, buttons, and modal displays.
+
+17. **Portfolio Section Styling**:
+    - Styles for portfolio content, images, titles, and descriptions, including swiper slider adjustments.
+
+18. **Project in Mind Section Styling**:
+    - Styles for project descriptions, images, and backgrounds.
+
+19. **Contact Me Section Styling**:
+    - Styles for contact form, icons, information, and QR code display.
+
+20. **Social Media Section Styling**:
+    - Styles for social media icons, their layout, and media query adjustments.
+
+21. **Footer Styling**:
+    - Styles for the footer section, including background colors, titles, links, and layout.
+
+22. **Scroll-Up Button Styling**:
+    - Styles for the scroll-up button that appears when scrolling down the page.
+
+23. **Scroll Bar Customization**:
+    - Custom styling for the scrollbar's appearance.
+
+24. **Media Queries**:
+    - Various media queries for responsiveness across different devices and screen sizes.
+
+The CSS file comprehensively covers styling aspects for various sections of a website, providing a detailed and organized structure for consistent visual presentation across different web pages and devices.

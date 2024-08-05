@@ -1,0 +1,37 @@
+The "OpenStreetMapLink.js" file defines a React class component named `OpenStreetMapLink`. This component generates a clickable link that redirects users to the OpenStreetMap website based on a provided work location.
+
+Here's a summary of its content:
+
+1. **Imports**:
+   - Imports React for creating the component.
+   - Imports a stylesheet ("../assets/css/Style.css") to apply styles to the component.
+
+2. **OpenStreetMapLink Component**:
+   - Class-based component extending `React.Component`.
+   - Contains a constructor to initialize the component and bind the `handleClick` method to the component's context.
+
+3. **Constructor**:
+   - Binds the `handleClick` method to the component's context to ensure proper function execution.
+
+4. **Handle Click Method**:
+   - Defines the `handleClick` method that triggers when the user clicks on the rendered content.
+   - Retrieves the `workLocation` prop from the component's props.
+   - Encodes the `workLocation` using `encodeURIComponent`.
+   - Constructs a URL for OpenStreetMap based on the encoded location.
+   - Opens the constructed URL in a new browser tab/window using `window.open` when the content is clicked.
+
+5. **Rendering**:
+   - Renders two clickable elements:
+     - `<h3>` element with the class "contact__title" displaying the text "Meet Me". When clicked, it triggers the `handleClick` method.
+     - `<span>` element with the class "contact__subtitle" displaying the `workLocation` passed through props. When clicked, it also triggers the `handleClick` method.
+
+6. **Functionality**:
+   - Allows users to click on the rendered text elements ("Meet Me" and the work location) to open a new browser tab/window displaying the location on OpenStreetMap.
+
+7. **Styling**:
+   - Utilizes CSS classes such as "contact__title" and "contact__subtitle" to style the appearance of the rendered elements.
+
+8. **Export**:
+   - Exports the `OpenStreetMapLink` component as the default export, making it available for use in other parts of the application.
+
+In summary, the `OpenStreetMapLink` component is a clickable link that, when clicked, redirects users to the OpenStreetMap website to view a specified work location.

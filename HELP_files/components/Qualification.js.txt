@@ -1,0 +1,32 @@
+The "Qualification.js" file exports a React functional component named `Qualification`. This component is responsible for rendering a section displaying qualification-related information based on the provided `data`.
+
+Here's a summary of its content:
+
+1. **Functional Component**:
+   - Defines a functional component named `Qualification`.
+   - Accepts a single `data` parameter.
+
+2. **Rendering Qualification Data**:
+   - Maps through the `projects` array within the provided `data`.
+   - For each item in the `projects` array, it generates a section displaying qualification-related details.
+   - Each section includes:
+     - A `div` with the class "qualification__data".
+     - Conditional rendering for styling purposes based on the index (`index % 2`).
+     - Title (`project.name`), subtitle (`project.description`), and duration (`project.duration`) for each qualification entry.
+
+3. **Structure and Styling**:
+   - Utilizes CSS classes such as "qualification__content", "qualification__data", "qualification__title", "qualification__subtitle", "qualification__calendar", etc., to structure and style the qualification-related content.
+
+4. **Conditionally Rendered Elements**:
+   - Uses conditional rendering (`index % 2 === 1`) to manage the visual layout, adding elements like lines and round markers between qualification entries for visual separation.
+
+5. **Loop through Qualification Data**:
+   - Loops through the provided `data.projects` array to display qualification information dynamically.
+   
+6. **Purpose**:
+   - Renders a section displaying qualifications, potentially used for showcasing educational or project-based achievements.
+
+7. **Export**:
+   - Exports the `Qualification` component using the named export syntax, allowing it to be imported and used in other parts of the application to display qualification-related content.
+
+Overall, the `Qualification` component is responsible for generating a structured display of qualification-related data provided through the `data` prop, presenting each qualification entry with its title, description, and duration in a visually organized manner.

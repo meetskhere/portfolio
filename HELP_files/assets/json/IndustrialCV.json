@@ -1,0 +1,167 @@
+{
+  "name": "Shubham Kumar",
+  "title": "Senior Data Analyst, KPIT",
+  "education": "B. Tech. (H) – Electrical Engineering, Indian Institute of Technology, Bhubaneswar",
+  "email": "shubham.kumar2@kpit.com, meetshubhamkumarhere@gmail.com",
+  "mobile": "+91 7391017360 (Work), +91 8456049049 (Other)",
+  "skype": "shubham.kumar36511",
+  "brief_summary": "5+ Years of work experience in KPIT as a full-time employee (July, 2018-Present)\n3 Months of work experience in LRDE, DRDO as a summer intern (May-July, 2017)",
+  "location":{
+    "residential_location":"Guwahati, India",
+    "work_location": "Hinjewadi Phase 3, Pune, MH"
+  },
+  "detailed_summary": {
+    "experience": [
+      {
+        "duration": "6 months",
+        "organization": "Products & Platforms – Digital Connected Services",
+        "role": "Data Analyst",
+        "domain": "Android & iOS App Library prototyping & development – Waypoint Optimizer (for GPX files)"
+      },
+      {
+        "duration": "6 months",
+        "organization": "Products & Platforms – Digital Connected Services",
+        "role": "Software Engineer",
+        "domain": "Predictive analytics & Maintenance – Engine Oil Remaining Useful Life Prediction"
+      },
+      {
+        "duration": "3 months",
+        "organization": "Products & Platforms – Vehicles Diagnostics & Communication System",
+        "role": "Software Engineer",
+        "domain": "Embedded System – TCU Firmware Debugging & Development"
+      },
+      {
+        "duration": "6 months",
+        "organization": "Products & Platforms – Vehicles Diagnostics & Communication System",
+        "role": "Software Engineer",
+        "domain": "Reverse Engineering, Data log Analysis, ODX/OTX Development"
+      },
+      {
+        "duration": "1 year",
+        "organization": "Products & Platforms – Digital Connected Services",
+        "role": "Trainee",
+        "domain": "Embedded System – TCU Firmware Development with Security features"
+      },
+      {
+        "duration": "3 months",
+        "organization": "ECoDe (Genesis Training)",
+        "role": "Trainee",
+        "domain": "Standard C, Embedded C (AVR), C++, Java SE, Javascript + NodeJS, Python 3, Azure Cloud Computing."
+      }
+    ],
+    "experience_details": [
+      {
+        "organization": "KPIT Technologies Ltd, Pune",
+        "client": "Triumph Motorcycles Ltd.",
+        "project": "Waypoint Optimizer Library prototyping & development",
+        "period": "Jul, 2021 to Dec, 2021",
+        "duration": "6 months",
+        "domain": "Android & iOS App (My Triumph) Library prototyping & development – Waypoint Optimizer (for GPX files)",
+        "environment": "Anaconda Environment with GIS libraries, Python Programming, Tableau Visualization",
+        "project_description": "Design & development of Bike navigation & tracking application for mobile devices (based on Android & iOS - My Triumph App)",
+        "contribution": [
+          "Developed a python-based library to read GPX files, convert the fetched trackpoints to optimized waypoints, checked the correct route path reproduction via Google Maps Direction API, and fix any issues if seen.",
+          "Helped in converting the python-based library to C++ based library for easy porting & merging at the app side.",
+          "Experience with Google Maps Platform: Directions API, Maps JavaScript API, Distance Matrix API, Maps Elevation API, Geocoding API, Geolocation API, Roads API, Places API"
+        ]
+      },
+      {
+        "organization": "KPIT Technologies Ltd, Pune",
+        "client": "Porsche AG",
+        "project": "End-to-end Engine oil RUL Prediction pipeline set on AWS",
+        "period": "Nov, 2020 to April, 2021",
+        "duration": "6 months",
+        "domain": "Predictive Maintenance – Engine Oil Remaining Useful Life Prediction",
+        "environment": "AWS hosted web application pipelining, Anaconda Environment, Python Programming, Tableau Visualization",
+        "project_description": "Design & develop an end-to-end RUL engine oil prediction method based on Supervised ML - Multivariate Linear Regression (Model Formulation) with PCA based model reduction technique along with AWS-based cloud connected monitoring website",
+        "contribution": [
+          "Helped my teammate to extract & store approx. 2.5 TB worth of raw vehicle data (MF4 format) from Porsche Partner Network (PPN), clean & prepare the data; followed by Exploratory Data Analysis (EDA); relevant feature selection; incorporating multiple Supervised Machine Learning (regression & classification based) Algorithms with different ML model reduction techniques for each and then choosing the best fit for the Vehicle dataset; then training & testing the Generated ML Models and finally deploying the ML model on AWS-based cloud connected monitoring website.",
+          "Learned, configured and maintained various AWS based technologies at backend: CloudSearch (To Managed Search Service); Batch (For Fully managed batch processing at any scale); EC2 (For Virtual Servers in the Cloud); Lambda (To Run Code without Thinking about Servers); DynamoDB (For Managed NoSQL Database); CloudFront (For Global Content Delivery Network); S3 (For Scalable Storage in the Cloud); Cognito (For Consumer Identity Management and AWS Credentials for Federated Identities); CloudWatch (To Monitor Resources and Applications)"
+        ]
+      },
+      {
+        "organization": "KPIT Technologies Ltd, Pune",
+        "client": "MAN Trucks",
+        "project": "Vehicle Remote Diagnostic capability demonstration",
+        "period": "Jan, 2020 to Mar, 2020",
+        "duration": "3 months",
+        "domain": "Embedded System – TCU Firmware Debugging & Development",
+        "environment": "STM32 MCU Series– ARM Cortex M4, Embedded C Programming",
+        "project_description": "Part of K-DCP After Sales Platform: Connected Diagnostic solution",
+        "contribution": [
+          "Bug fixing on K-VTS Firmware that was especially designed for Perodua.",
+          "Reused and added new UDS (ISO 14229) services and thoroughly tested the modified Firmware and released it as FOTA update for the KVTS Telematics Control Unit installed in MAN Trucks in Indonesia"
+        ]
+      },
+      {
+        "organization": "KPIT Technologies Ltd, Pune",
+        "client": "Zoomcar",
+        "project": "PoC: Local & Remote control of Vehicle’s Body Control Module (BCM) Actuation",
+        "period": "Oct, 2019 – Mar, 2020 (further activity paused due to COVID-19 Pandemic)",
+        "duration": "6 months",
+        "domain": "Reverse Engineering, Data log analysis, ODX/OTX Development (K-DCP tools)",
+        "environment": "On-Vehicle data extraction testing using various hardware & software tools",
+        "project_description": "Remotely actuate BCM parts such as door: LOCK/UNLOCK",
+        "contribution": [
+          "Extracted and identified CAN & ECU ID Data for Body Control Module (BCM) related actuation from 8-9 passenger vehicles through reverse engineering methods",
+          "Local & Remote control of the vehicle door in IGN ON & OFF state using Rasberry Pi 3+PiCAN module, K-DCP Service Tester tool, K-DCP DatabaseDesigner tool + K-DCP OTX Authoring tool, etc.",
+          "Understood at beginner’s level about various vehicles application-layer protocols such as UDS ISO 14229 & OBD ISO 15031; vehicles data description protocols such as ODX ISO 22901-1 & OTX ISO 13209"
+        ]
+      },
+      {
+        "organization": "KPIT Technologies Ltd, Pune",
+        "client": "Daimler India Commercial Vehicles (DICV)",
+        "project": "K-VTS Telematics Control Unit (TCU) Firmware Development",
+        "period": "Oct, 2018 – Sep, 2019",
+        "duration": "1 year",
+        "domain": "Embedded System - TCU Firmware Development with Security features",
+        "environment": "STM32 MCU Series – ARM Cortex M4, Embedded C Programming",
+        "project_description": "TCU Firmware Development end-to-end based on ARAI’s AIS 140 Specification for DICV Trucks & Buses with additional Security layer (in both Bootloader & Application)",
+        "contribution": [
+          "The KLOG Parser utility was coded in Python for testing, result logging and debugging of various KLOGs received on the serial terminal through RS232.",
+          "Modular design of CryptoManager API for AES 256 bit in CBC mode for encrypting & decrypting of data, HashManager API for hashing using SHA256, and ProtectionManager API for protecting IP data in the KPIT under Middleware layer for K-VTS Next Gen Firmware in embedded C Language for STM32L4 platform.",
+          "End-to-end PoC: code-flow design, coding, verification, testing, and firmware installation on the Quectel M66 GSM-GPRS Module mounted on the K-VTS Telematics Control Unit Hardware for its Firmware upgrade as per the project requirement."
+        ]
+      }
+    ]
+  },
+  "technical_skills": [
+    {
+      "skill": "Embedded C (STM32 MCU Series - ARM) programming",
+      "tools_technologies": "Software tools: STM32 System Workbench, STM32 ST Link Utility, STM32 CubeProgrammer, STM32 CubeMX, ST Visual Programmer, ST Visual Develop, Teraterm & MobaXTerm"
+    },
+    {
+      "skill": "Python Programming (OOP based), C++ programming (OOP based)",
+      "tools_technologies": "Software tools: Anaconda Development Environment– Spyder IDE, PyCharm; OSGeo4W Development Environment; Microsoft Visual Studio, Code::Blocks"
+    },
+    {
+      "skill": "Cyber Security (Cryptography) algorithms, Statistical algorithms, GIS based algorithms and Mathematical optimization",
+      "tools_technologies": "Technologies: Encryption/Decryption (for Symmetric- AES & Asymmetric- RSA) and Hashing (for data integrity- SHA); Regression algorithms, Classification algorithms, k-nearest-neighbors; various Path Simplification and Routing Algorithms, various Trajectory/Map matching algorithms; Mathematics & Statistics, Optimization algorithms, Iterative methods, Global convergence."
+    },
+    {
+      "skill": "Analog & Digital Signal Processing (Applications experience: audio & speech processing, digital image processing)",
+      "tools_technologies": "Software tools: MathWorks MATLAB & SIMULINK"
+    }
+  ],
+  "honors_awards": [
+    {
+      "description": "KPIT Star Performer Award for K-VTS Project for DICV",
+      "duration": "2018-19"
+    },
+    {
+      "description": "KPIT KROWN Awards – Comrades for Porsche Engine Oil RUL Prediction",
+      "duration": "2020-21"
+    }
+  ],
+  "employment_summary": {
+    "kpit_employee_id": "137619",
+    "kpit_joining_date": "03-07-2018"
+  },
+  "visa_details": [
+    {
+      "country": "NA",
+      "visa": "NA",
+      "validity": "NA"
+    }
+  ]
+}

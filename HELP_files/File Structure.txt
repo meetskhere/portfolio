@@ -1,0 +1,100 @@
+PS F:\src> tree /f
+Folder PATH listing for volume STUDY
+Volume serial number is 6695-D95D
+F:.
+│   App.css
+│   App.js
+│   index.css
+│   index.js
+│   transition.js
+│
+├───assets
+│   ├───css
+│   │       root.css
+│   │       Style.css
+│   │
+│   ├───img
+│   │   │   QR_CODE.png
+│   │   │   User.jpg
+│   │   │   User_noBackground.png
+│   │   │
+│   │   ├───icon256
+│   │   │   │   backup.txt
+│   │   │   │
+│   │   │   ├───license
+│   │   │   │       license.pdf
+│   │   │   │
+│   │   │   └───png
+│   │   │           001-online-resume.png
+│   │   │           002-profile.png
+│   │   │           003-resume.png
+│   │   │           004-resume-1.png
+│   │   │           005-portfolio.png
+│   │   │           006-curriculum-vitae.png
+│   │   │           007-cv.png
+│   │   │           008-profile-1.png
+│   │   │
+│   │   ├───icon512
+│   │   │   │   backup.txt
+│   │   │   │
+│   │   │   ├───license
+│   │   │   │       license.pdf
+│   │   │   │
+│   │   │   └───png
+│   │   │           001-profile.png
+│   │   │           002-cv.png
+│   │   │           003-curriculum-vitae.png
+│   │   │           004-portfolio.png
+│   │   │           005-resume.png
+│   │   │           006-resume-1.png
+│   │   │           007-profile-1.png
+│   │   │           008-online-resume.png
+│   │   │
+│   │   └───slides
+│   │           img1.jpg
+│   │           img2.jpg
+│   │           img3.jpg
+│   │           img4.jpg
+│   │           img5.jpg
+│   │           img6.jpg
+│   │           img7.jpg
+│   │
+│   ├───json
+│   │       AcademicCV.json
+│   │       IndustrialCV.json
+│   │       Portfolio.json
+│   │
+│   ├───pdf
+│   │       CV.pdf
+│   │
+│   └───vcf
+│           vcard.vcf
+│
+├───components
+│       BulletCard.js
+│       Cards.js
+│       DetailExperienceModal.js
+│       Experience.js
+│       Footer.js
+│       Header.js
+│       index.js
+│       Modal.js
+│       OpenStreetMapLink.js
+│       Qualification.js
+│       QualificationTable.js
+│       ScrollUp.js
+│       Skill.js
+│       Slides.js
+│       SwiperSlides.js
+│
+├───pages
+│       AboutMe.js
+│       Dashboard.js
+│       index.js
+│       PageNotFound.js
+│       Resume.js
+│
+└───routes
+        AllRoutes.js
+
+PS F:\src>

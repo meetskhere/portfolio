@@ -1,0 +1,34 @@
+The "Footer.js" file contains a React functional component named `Footer`. This component represents the footer section of a web page and includes links, social media icons, and copyright information.
+
+Here's a summary of its content:
+
+1. **Imports**:
+   - **Link**: Imports the `Link` component from "react-router-dom" for creating navigational links.
+   - **Icons**: Imports social media icons (`UilFacebookF`, `UilInstagram`, `UilLinkedinAlt`) from the '@iconscout/react-unicons' library.
+   - **Style**: Imports a CSS file ("../assets/css/Style.css") for applying styles to the footer.
+
+2. **Footer Component**:
+   - Functional component defined using arrow function syntax.
+   - Doesn't accept any props.
+
+3. **HTML Structure**:
+   - Creates a footer element with the class "footer".
+   - Contains a div with the class "footer__bg" for background styling.
+   - Divides the content into different sections using classes like "footer__container", "footer__links", "footer__socials", etc.
+
+4. **Content**:
+   - Displays the name ("Arpan") and a subtitle ("React Developer") within the footer section, indicating the identity and profession.
+   - Includes navigational links to sections like Services, Portfolio, and Contact Me, using the `Link` component from "react-router-dom".
+   - Integrates social media icons (Facebook, Instagram, LinkedIn) as links within the footer section.
+
+5. **Styling**:
+   - Utilizes CSS classes such as "footer__title", "footer__subtitle", "footer__links", "footer__socials", etc., to structure and style different elements within the footer.
+
+6. **Copyright Notice**:
+   - Displays a copyright notice at the bottom ("All right reserved").
+
+7. **Functionality**:
+   - Provides navigational links to different sections within the website using the `Link` component.
+   - Offers links to social media platforms via icons for additional interaction and connection.
+
+Overall, the `Footer` component serves as the footer section of a web page, containing essential elements such as branding, navigation links, social media links, and copyright information. It provides users with easy access to navigate through different sections of the website and connect via social media platforms.

@@ -1,0 +1,25 @@
+The "transition.js" file appears to be a module that defines a higher-order component (HOC) for implementing transitions using the Framer Motion library. It wraps the original component passed to it (`OgComponent`) with motion components to create slide-in and slide-out transitions.
+
+Here's a breakdown of its content:
+
+1. **Imports**:
+   - **motion**: Imports the `motion` component from the "framer-motion" library, which provides animation capabilities for React components.
+
+2. **transition Function**:
+   - **Constant function** named `transition`: Accepts a component (`OgComponent`) and returns a function that renders the original component along with motion components for slide-in and slide-out transitions.
+   - **Returned function**: Returns an arrow function that doesn't take any arguments (a functional component).
+   - **Return Statement**:
+     - Returns JSX containing:
+       - The original `OgComponent` rendered.
+       - Two `<motion.div>` elements:
+         - One with the class "slide-in" and initial, animate, and exit properties set for a specific animation effect.
+         - Another with the class "slide-out" and its respective animation properties defined.
+
+3. **Animation properties**:
+   - Both `<motion.div>` elements utilize Framer Motion's animation properties (`initial`, `animate`, `exit`, `transition`) to define the animation behavior for slide-in and slide-out transitions.
+   - These properties specify the initial state, animation state, exit state, and transition duration/easing for the elements' transformations (scaling in this case).
+
+4. **Export**:
+   - Exports the `transition` function as the default export, allowing this function to be imported and used in other parts of the application to wrap components with slide-in and slide-out transition effects.
+
+In summary, this module is designed to enhance components by providing slide-in and slide-out transition effects using Framer Motion. It acts as a higher-order component that takes in another component and returns a modified version of it with added motion components for animated transitions.

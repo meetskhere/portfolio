@@ -1,0 +1,2028 @@
+{
+	"name": "Shubham Kumar",
+	"title": "Senior Data Analyst",
+	"degree": "B. Tech. (H)  Electrical Engineering",
+	"workplace": "KPIT Technologies Ltd., Pune",
+	"studyplace": "Indian Institute of Technology, Bhubaneswar",
+	"brief_summary": "Shubham Kumar is a Senior Data Analyst at KPIT Technologies Pvt. Ltd., leveraging a B.Tech (H) degree in Electrical Engineering from the esteemed Indian Institute of Technology Bhubaneswar. Recognized for academic excellence, Shubham's journey includes top-tier achievements in multiple national level examinations.\nHis expertise spans Analog-Digital/Mixed Signal Circuit Design, Automatic Control Systems, Signal Processing, Communication Systems, Image Processing, and IoT-based secure communication. Shubham excels in wearable gadgets, focusing on signal lifecycle management.\nBeyond academics, Shubham is a versatile contributor, participating actively in badminton, leading events at the Alumni Cell, and contributing to the Robotics and Intelligent Systems Club. Proficient in languages like C, C++, Python, etc. he is also well-versed in 2D Graphics Design, proficiently using Adobe tools.\nIn essence, he is a person with a rich educational background, diverse skill set, and a proven record of success, making him a valuable asset for data analysis and technology role.",
+	"location": {
+		"residential_location": "Gotanagar, Guwahati-781011, Assam, India",
+		"study_location": "Jatni, Khordha-752050, Odisha, India"
+	},
+	"contact": {
+		"email": [
+			"sk40@iitbbs.ac.in",
+			"meetshubhamkumarhere@gmail.com"
+		],
+		"mobile": {
+			"work": "+91 8456049049",
+			"other": "+91 7319701944"
+		}
+	},
+	"areas_of_interest": [
+		"Analog-Digital/Mixed Signal Circuit Designing and Simulation especially for IoT based systems",
+		"Automatic control systems with special focus on robust and optimal control mechanism",
+		"Signal processing and communication systems",
+		"Image processing: character & pattern recognition system",
+		"IoT based secure communication and networking",
+		"Wearable gadgets functioning: signal acquisition, processing, transmission and communication"
+	],
+	"education": [
+		{
+			"year": "2009-2011",
+			"degree": "AISSE-CBSE (Class X)",
+			"school": "St. Francis D’ Assisi Senior Secondary School, Guwahati",
+			"score": "CGPA 10",
+			"subjects": "English Communication, Hindi, Mathematics, Science, Social Science"
+		},
+		{
+			"year": "2011-2013",
+			"degree": "AISSCE-CBSE (Class XII)",
+			"school": "S. B. O. A. Public School, Guwahati",
+			"score": "80.6%",
+			"subjects": "English Core, Physics, Chemistry, Mathematics, Computer Science, Physical Education"
+		},
+		{
+			"year": "2014-2018",
+			"degree": "Bachelor of Technology (Honors) (4-years)",
+			"school": "Indian Institute of Technology (IIT), Bhubaneswar",
+			"score": "CGPA 7",
+			"subjects": "Electrical Engineering"
+		}
+	],
+	"achievements": {
+		"scholastic": [
+			"Selected in top 0.1% students in the JEE-Mains 2014",
+			"Among the top-25 candidates in the State-level Engineering Entrance Exam: Assam CEE 2014",
+			"Selected for INSPIRE Winter Science Camp 2010 in Class IX hosted by IIT Guwahati for class IX, X toppers",
+			"Secured first rank consistently for 2003-2011 (before dropping out in 2011) in the Annual Art Examinations conducted by Art Training Centre, Guwahati, Assam affiliated under Bangiya Sangeet Parishad, Kolkata, West Bengal",
+			"Awarded the prestigious Ankan Bivakar (Master Artist) by the Bangiya Sangeet Parishad in 2009-10",
+			"Awarded First Prize in the Creative Craft: International Art & Craft Contest 2008- School Level in Class VIII"
+		],
+		"non_scholastic": [
+			"Key member of the Badminton Team and played badminton tournaments for the Institute",
+			"Core Head of Events Management Team of Institute’s Alumni Cell",
+			"A former core member of the RISC (Robotics and Intelligent Systems Club), took part in many events organized in the Institute",
+			"Participates actively in online tutoring platform: EdX, Coursera and Udemy for courses on Electrical Engineering, standard C and C++ Programming etc.",
+			"Maintains my own blog at Wordpress.com: www.meetshubhamkumarhere.wordpress.com",
+			"Passionate Graphics Designer (especially interested at DTP) using software tools such as Adobe Photoshop, Adobe Illustrator, Adobe Fireworks, Adobe InDesign, Adobe InCopy and Adobe Acrobat Pro"
+		]
+	},
+	"projects": [
+		{
+			"name": "SCI-CALC",
+			"duration": "JULY, 2013 - JUNE, 2018",
+			"period": "5 years",
+			"description": "A CLI based general purpose complete scientific calculator programmed in C++ with lots of innovative and detailed features having over 4000+ lines of code.",
+			"status": "Completed"
+		},
+		{
+			"name": "SR-DOMOTICA",
+			"duration": "MAY-JULY, 2016",
+			"period": "3 months",
+			"description": "A Voice Controlled Home Automation system having connectivity using Bluetooth (less-distant communication) and GSM (much-distant communication) with an innovatively designed Android Application interface. Status: Completed."
+		},
+		{
+			"name": "SOULEVA",
+			"duration": "JULY-SEPTEMBER, 2016",
+			"period": "3 months",
+			"description": "A simple Sound Level Monitoring System, to detect any audio activity: gives information about frequency (Hz), Voltage amplitude (V), Loudness (in dB-A) in the LCD panel, and display the waveform shape in real-time on a GLCD panel using Arduino MEGA 2560. Status: Completed."
+		},
+		{
+			"name": "IOT-BASED SENSORY DATA ANALYSIS",
+			"duration": "SEPTEMBER-NOVEMBER, 2016",
+			"period": "3 months",
+			"description": "Made a simple IoT based Vibration and Temperature detection module; send the generated data to the computer using MCU ATMega328 PU via serial to USB connector, for sending the data on the Internet for displaying real-time signal variation and its data analysis. Status: Completed."
+		},
+		{
+			"name": "AIDE- A SMART GOGGLE",
+			"duration": "OCTOBER, 2016 - JUNE, 2018",
+			"period": "1 year & 9 months",
+			"description": "It is a wearable Smart Goggle System, it is an assistant (or helper), to perform simple tasks just by doing eye movements. Status: Completed"
+		},
+		{
+			"name": "INTERNSHIP: ELECTRONIC & RADAR DEVELOPMENT ESTABLISHMENT (DRDO), BENGALURU",
+			"duration": "MAY-JULY, 2017",
+			"period": "3 months",
+			"description": "We build an FMCW based RADAR Design for Object’s position and velocity  Detection in 2D along with building the Graphical User Interface (GUI) of the MATLAB App (My RADAR) & tested the corresponding algorithms in Simulink Environment. Status: Completed."
+		},
+		{
+			"name": "B. TECH. (H) PROJECT: IOT-BASED AUTO-TRANSLATION OF GESTURE ANIMATION SYNTHESIS SYSTEM FOR BODY AREA NETWORK (BAN)",
+			"duration": "JULY, 2017 - MAY, 2018",
+			"period": "10 months",
+			"description": "The aim of the project is to make a Gesture Animation Synthesis System that utilizes hand gestures as input to control or interact with connected devices without physically touching them so as to enables humans to communicate with the machine which forms the basis for Human Machine Interaction (HMI) and interact naturally without taking aid of any mechanical devices. Status: Completed."
+		}
+	],
+	"other_courses": [
+		{
+			"name": "MATHWORKS MATLAB + RASPBERRY PI WORKSHOP 2016",
+			"icon_url": [
+				""
+			],
+			"details": [
+				"Hosted by Mathworks (India-HQ Bangalore) Senior Hardware Engineering Division employee at IIT Bhubaneswar on Photo and Video Processing after Data acquisition (through Microsoft Kinect and RaspiCam for Raspberry Pi)",
+				"Followed by a hands-on training on Simulink environment to develop models for the same."
+			]
+		},
+		{
+			"name": "NETWORK BULLS EDUCATING NETWORK with E-CELL, IIT BOMBAY",
+			"icon_url": [
+				""
+			],
+			"details": [
+				"Understanding fundamentals of Computer Networking (routing switching technologies along with IP addressing schemes, routing basics, switching, WAN technologies, Network Security fundamentals, Network Automation and Network Programmability basics) & creating networking models on Cisco Packet Tracer Software."
+			]
+		},
+		{
+			"name": "INDWELL AUTOMATION with DESIGN & INNOVATION CENTRE, IIT BHUBANESWAR",
+			"icon_url": [
+				""
+			],
+			"details": [
+				"PLC Training (Introduction, types, hardware and software, micro and modular PLCs, logic development tricks, Important instructions, Industrial programs and industrial automation devices)",
+				"HMI Training (Introduction, hardware and software, operator panel and touch panel, HMI screen development, PLC interface, security level and P/W protection)",
+				"SCADA Training (Introduction, different tag creation, drive configuration, tags configuration, screens development, device tagging and PLC communication)",
+				"DRIVES Training (Introduction, parameter setting, multi speed, wiring, PLC interface)"
+			]
+		},
+		{
+			"name": "KPIT ECODE-GENESIS TRAINING (JULY-SEPTEMBER, 2018)",
+			"icon_url": [
+				""
+			],
+			"details": [
+				"Intensive training on standard C, embedded C (ATmega series - AVR), C++, Java SE, Javascript + NodeJS, Python, Azure Cloud Computing."
+			]
+		}
+	],
+	"technical_skills": [
+		{
+			"title": "Programming Languages",
+			"years": "More than 5 years of experience",
+			"skills": [
+				{
+					"name": "Standard C",
+					"percentage": "60%",
+					"details": [
+						{
+							"category": "Basics of C Programming",
+							"subtopics": [
+								"Variables and Data Types",
+								"Input and Output (printf, scanf)",
+								"Arithmetic Operators"
+							]
+						},
+						{
+							"category": "Control Flow",
+							"subtopics": [
+								"Conditional Statements (if, else, switch)",
+								"Looping Constructs (for, while, do-while)"
+							]
+						},
+						{
+							"category": "Functions",
+							"subtopics": [
+								"Function Declaration and Definition",
+								"Parameters and Return Values"
+							]
+						},
+						{
+							"category": "Arrays",
+							"subtopics": [
+								"Declaration and Initialization",
+								"Accessing Array Elements",
+								"Array Manipulation"
+							]
+						},
+						{
+							"category": "Pointers",
+							"subtopics": [
+								"Basics of Pointers",
+								"Pointer Arithmetic",
+								"Pointers and Arrays"
+							]
+						},
+						{
+							"category": "Strings",
+							"subtopics": [
+								"String Manipulation",
+								"String Handling Functions (strlen, strcpy, etc.)",
+								"Character Arrays vs. String Literals"
+							]
+						},
+						{
+							"category": "Structures",
+							"subtopics": [
+								"Defining and Using Structures",
+								"Nesting Structures",
+								"Array of Structures"
+							]
+						},
+						{
+							"category": "File Handling",
+							"subtopics": [
+								"File I/O Operations (fopen, fread, fwrite, fclose)",
+								"Text and Binary File Handling",
+								"Error Handling in File Operations"
+							]
+						},
+						{
+							"category": "Dynamic Memory Allocation",
+							"subtopics": [
+								"Malloc, Calloc, Realloc, Free",
+								"Memory Leaks and Memory Management"
+							]
+						},
+						{
+							"category": "Advanced Control Flow",
+							"subtopics": [
+								"Nested Loops and Conditionals",
+								"Break and Continue Statements",
+								"Switch Statement with Complex Cases"
+							]
+						},
+						{
+							"category": "Advanced Functions",
+							"subtopics": [
+								"Recursion",
+								"Function Pointers",
+								"Variable Argument Functions (stdarg.h)"
+							]
+						},
+						{
+							"category": "Advanced Pointers",
+							"subtopics": [
+								"Double Pointers",
+								"Pointers to Functions",
+								"Function Pointers and Callbacks"
+							]
+						},
+						{
+							"category": "Advanced Data Structures",
+							"subtopics": [
+								"Linked Lists",
+								"Stacks and Queues",
+								"Trees and Graphs"
+							]
+						},
+						{
+							"category": "Bit Manipulation",
+							"subtopics": [
+								"Binary Operations",
+								"Bitwise Operators"
+							]
+						},
+						{
+							"category": "Advanced File Handling",
+							"subtopics": [
+								"File Positioning",
+								"Random Access Files",
+								"Error Handling in File Operations"
+							]
+						},
+						{
+							"category": "Preprocessor Directives",
+							"subtopics": [
+								"Macros",
+								"Conditional Compilation",
+								"Header Files and Include Guards"
+							]
+						},
+						{
+							"category": "Advanced Memory Management",
+							"subtopics": [
+								"Memory-Mapped Files",
+								"Custom Memory Allocators"
+							]
+						},
+						{
+							"category": "Advanced Topics",
+							"subtopics": [
+								"Function Inlining",
+								"Optimization Techniques",
+								"Understanding Assembly Code Generated by the Compiler"
+							]
+						},
+						{
+							"category": "C Standard Library (stdlib, stdio, string, etc.)",
+							"subtopics": [
+								"In-Depth Knowledge of Library Functions",
+								"Custom Implementations of Standard Functions"
+							]
+						}
+					]
+				},
+				{
+					"name": "C++ Language",
+					"percentage": "50%",
+					"details": [
+						{
+							"category": "Introduction to C++",
+							"subtopics": [
+								"History and Features",
+								"Differences from C"
+							]
+						},
+						{
+							"category": "Basic Syntax and Data Types",
+							"subtopics": [
+								"Variables and Constants",
+								"Data Types (int, float, double, char, bool)"
+							]
+						},
+						{
+							"category": "Control Flow",
+							"subtopics": [
+								"If Statements",
+								"Switch Statements",
+								"Loops (for, while, do-while)"
+							]
+						},
+						{
+							"category": "Functions",
+							"subtopics": [
+								"Function Declaration and Definition",
+								"Parameters and Return Values"
+							]
+						},
+						{
+							"category": "Object-Oriented Programming (OOP) Basics",
+							"subtopics": [
+								"Classes and Objects",
+								"Encapsulation, Inheritance, Polymorphism",
+								"Constructors and Destructors"
+							]
+						},
+						{
+							"category": "Pointers and References",
+							"subtopics": [
+								"Basics of Pointers",
+								"References and Reference Variables"
+							]
+						},
+						{
+							"category": "Arrays and Strings",
+							"subtopics": [
+								"Declaration and Initialization",
+								"Array Manipulation",
+								"String Manipulation"
+							]
+						},
+						{
+							"category": "Standard Template Library (STL) Basics",
+							"subtopics": [
+								"Introduction to Vectors, Arrays, and Strings in STL",
+								"Iterators and Algorithms"
+							]
+						},
+						{
+							"category": "Advanced OOP Concepts",
+							"subtopics": [
+								"Abstraction and Interfaces",
+								"Operator Overloading",
+								"Virtual Functions and Abstract Classes"
+							]
+						},
+						{
+							"category": "Templates and Generic Programming",
+							"subtopics": [
+								"Function Templates",
+								"Class Templates",
+								"Template Specialization"
+							]
+						},
+						{
+							"category": "Exception Handling",
+							"subtopics": [
+								"try, catch, throw",
+								"Exception Classes and Custom Exceptions"
+							]
+						},
+						{
+							"category": "File I/O",
+							"subtopics": [
+								"File Streams (ifstream, ofstream)",
+								"Reading and Writing Files",
+								"Binary File Handling"
+							]
+						},
+						{
+							"category": "STL Containers",
+							"subtopics": [
+								"Lists, Stacks, Queues",
+								"Maps, Sets",
+								"Container Adapters"
+							]
+						},
+						{
+							"category": "STL Algorithms",
+							"subtopics": [
+								"Sorting, Searching",
+								"Iterators and Algorithms",
+								"Functors and Lambda Expressions"
+							]
+						},
+						{
+							"category": "Memory Management",
+							"subtopics": [
+								"new and delete Operators",
+								"Smart Pointers (unique_ptr, shared_ptr, weak_ptr)"
+							]
+						}
+					]
+				},
+				{
+					"name": "Standard SQL",
+					"percentage": "50%",
+					"details": [
+						{
+							"category": "Introduction to SQL",
+							"subtopics": [
+								"Overview of Relational Databases",
+								"Basic Concepts of SQL"
+							]
+						},
+						{
+							"category": "Basic SQL Syntax",
+							"subtopics": [
+								"SELECT Statement",
+								"FROM Clause",
+								"WHERE Clause",
+								"ORDER BY Clause"
+							]
+						},
+						{
+							"category": "Filtering and Sorting Data",
+							"subtopics": [
+								"WHERE Conditions",
+								"Comparison Operators",
+								"Logical Operators (AND, OR, NOT)",
+								"Sorting Results with ORDER BY"
+							]
+						},
+						{
+							"category": "Working with Tables",
+							"subtopics": [
+								"Creating Tables (CREATE TABLE)",
+								"Altering Tables (ALTER TABLE)",
+								"Dropping Tables (DROP TABLE)"
+							]
+						},
+						{
+							"category": "Data Types",
+							"subtopics": [
+								"Numeric, Character, and Date/Time Data Types",
+								"NULL Values"
+							]
+						},
+						{
+							"category": "Inserting and Updating Data",
+							"subtopics": [
+								"INSERT Statement",
+								"UPDATE Statement",
+								"DELETE Statement"
+							]
+						},
+						{
+							"category": "Querying Multiple Tables",
+							"subtopics": [
+								"INNER JOIN, LEFT JOIN, RIGHT JOIN",
+								"Cartesian Product and Cross Join",
+								"Combining Results with UNION"
+							]
+						},
+						{
+							"category": "Aggregate Functions",
+							"subtopics": [
+								"SUM, AVG, MIN, MAX, COUNT",
+								"GROUP BY Clause",
+								"HAVING Clause"
+							]
+						},
+						{
+							"category": "Subqueries",
+							"subtopics": [
+								"Single-Row and Multiple-Row Subqueries",
+								"Nested Subqueries",
+								"Correlated Subqueries"
+							]
+						},
+						{
+							"category": "Advanced Filtering",
+							"subtopics": [
+								"BETWEEN and IN Operators",
+								"LIKE Operator and Pattern Matching",
+								"IS NULL and IS NOT NULL Conditions"
+							]
+						},
+						{
+							"category": "Indexes and Performance Optimization",
+							"subtopics": [
+								"Understanding Indexes",
+								"Creating and Managing Indexes",
+								"Optimizing Queries for Performance"
+							]
+						},
+						{
+							"category": "Constraints and Keys",
+							"subtopics": [
+								"PRIMARY KEY and FOREIGN KEY Constraints",
+								"UNIQUE Constraints",
+								"CHECK Constraints"
+							]
+						},
+						{
+							"category": "Views",
+							"subtopics": [
+								"Creating Views",
+								"Modifying and Dropping Views",
+								"Using Views in Queries"
+							]
+						},
+						{
+							"category": "Transactions and Locks",
+							"subtopics": [
+								"ACID Properties",
+								"COMMIT and ROLLBACK Statements",
+								"Locking Mechanisms"
+							]
+						},
+						{
+							"category": "Stored Procedures and Functions",
+							"subtopics": [
+								"Creating and Executing Stored Procedures",
+								"Input and Output Parameters",
+								"User-Defined Functions"
+							]
+						},
+						{
+							"category": "Advanced Joins",
+							"subtopics": [
+								"Self-Joins",
+								"Non-Equijoin and Outer Join Variations",
+								"Joining More Than Two Tables"
+							]
+						},
+						{
+							"category": "Window Functions",
+							"subtopics": [
+								"OVER Clause",
+								"ROW_NUMBER(), RANK(), DENSE_RANK()",
+								"LAG and LEAD Functions"
+							]
+						},
+						{
+							"category": "Common Table Expressions (CTEs)",
+							"subtopics": [
+								"Syntax and Usage",
+								"Recursive CTEs",
+								"Benefits and Optimization"
+							]
+						},
+						{
+							"category": "Analytical Functions",
+							"subtopics": [
+								"PARTITION BY Clause",
+								"Ranking and Windowing Functions",
+								"Percentile Functions"
+							]
+						},
+						{
+							"category": "Advanced Subqueries",
+							"subtopics": [
+								"Correlated Subqueries with EXISTS and NOT EXISTS",
+								"Scalar Subqueries",
+								"Inline and Derived Tables"
+							]
+						}
+					]
+				},
+				{
+					"name": "Python 3",
+					"percentage": "80%",
+					"details": [
+						{
+							"category": "Introduction to Python",
+							"subtopics": [
+								"Python History and Philosophy",
+								"Interpreted vs. Compiled Languages"
+							]
+						},
+						{
+							"category": "Basic Syntax and Data Types",
+							"subtopics": [
+								"Variables and Assignments",
+								"Numeric Data Types (int, float)",
+								"Strings and String Manipulation",
+								"Booleans and Basic Operators"
+							]
+						},
+						{
+							"category": "Control Flow",
+							"subtopics": [
+								"Conditional Statements (if, else, elif)",
+								"Looping Constructs (for, while)",
+								"Range and Enumerate Functions"
+							]
+						},
+						{
+							"category": "Collections",
+							"subtopics": [
+								"Lists and List Comprehension",
+								"Tuples",
+								"Dictionaries and Sets"
+							]
+						},
+						{
+							"category": "Functions",
+							"subtopics": [
+								"Function Definition and Invocation",
+								"Parameters and Return Values",
+								"Scope and Lifetime of Variables"
+							]
+						},
+						{
+							"category": "Error Handling",
+							"subtopics": [
+								"Exception Handling (try, except, finally)",
+								"Common Built-in Exceptions"
+							]
+						},
+						{
+							"category": "File I/O",
+							"subtopics": [
+								"Reading and Writing Files",
+								"File Modes and Handling"
+							]
+						},
+						{
+							"category": "Modules and Packages",
+							"subtopics": [
+								"Importing Modules",
+								"Creating and Using Packages",
+								"__init__.py Files"
+							]
+						},
+						{
+							"category": "Advanced Data Types",
+							"subtopics": [
+								"Collections (Deque, defaultdict, Counter)",
+								"Namedtuple and OrderedDict",
+								"Sets and Frozensets"
+							]
+						},
+						{
+							"category": "Comprehensions and Generators",
+							"subtopics": [
+								"List Comprehensions",
+								"Dictionary Comprehensions",
+								"Generator Expressions and Functions"
+							]
+						},
+						{
+							"category": "Object-Oriented Programming (OOP)",
+							"subtopics": [
+								"Classes and Objects",
+								"Inheritance and Polymorphism",
+								"Encapsulation and Abstraction"
+							]
+						},
+						{
+							"category": "Decorators and Metaclasses",
+							"subtopics": [
+								"Function Decorators",
+								"Class Decorators",
+								"Metaclasses and Their Usage"
+							]
+						},
+						{
+							"category": "Functional Programming",
+							"subtopics": [
+								"First-class Functions",
+								"Higher-Order Functions",
+								"Lambda Functions and Map/Reduce/Filter"
+							]
+						},
+						{
+							"category": "Regular Expressions",
+							"subtopics": [
+								"Syntax and Patterns",
+								"Using the re Module",
+								"Common Regex Patterns"
+							]
+						},
+						{
+							"category": "Working with APIs",
+							"subtopics": [
+								"Making HTTP Requests (Requests Library)",
+								"Handling JSON Data",
+								"Authentication and API Keys"
+							]
+						},
+						{
+							"category": "Concurrency and Multithreading",
+							"subtopics": [
+								"Threading and Multiprocessing",
+								"Global Interpreter Lock (GIL)",
+								"Asynchronous Programming with Asyncio"
+							]
+						},
+						{
+							"category": "Advanced File I/O",
+							"subtopics": [
+								"Working with Binary Files",
+								"Serialization (Pickle, JSON)",
+								"Context Managers and the 'with' Statement"
+							]
+						},
+						{
+							"category": "Testing and Debugging",
+							"subtopics": [
+								"Writing Unit Tests (Unittest, Pytest)",
+								"Debugging Techniques and Tools",
+								"Test-Driven Development (TDD)"
+							]
+						},
+						{
+							"category": "Performance Optimization",
+							"subtopics": [
+								"Profiling and Benchmarking",
+								"Cython and C Extensions",
+								"Memory Management and Optimization"
+							]
+						},
+						{
+							"category": "Database Access",
+							"subtopics": [
+								"SQL Databases (SQLite, PostgreSQL)",
+								"ORM (Object-Relational Mapping)",
+								"Transactions and Connection Pooling"
+							]
+						},
+						{
+							"category": "Machine Learning and Data Science",
+							"subtopics": [
+								"Libraries (NumPy, Pandas, Scikit-learn)",
+								"Building and Training Models",
+								"Data Preprocessing and Feature Engineering"
+							]
+						},
+						{
+							"category": "Web Scraping and Automation",
+							"subtopics": [
+								"Requests and BeautifulSoup for Web Scraping",
+								"Automating Tasks with Tools Like Selenium",
+								"Handling APIs and Webhooks"
+							]
+						},
+						{
+							"category": "Security Best Practices",
+							"subtopics": [
+								"Secure Coding Practices",
+								"Cryptography and Hashing",
+								"Common Security Vulnerabilities and Mitigation"
+							]
+						}
+					]
+				},
+				{
+					"name": "Embedded C (ARM based STM32 cortex M processor)",
+					"percentage": "40%",
+					"details": [
+						{
+							"category": "Introduction to Embedded Systems",
+							"subtopics": [
+								"Basics of Embedded Systems",
+								"Microcontroller Role",
+								"ARM Cortex-M Architecture"
+							]
+						},
+						{
+							"category": "ARM Cortex-M Architecture",
+							"subtopics": [
+								"Introduction to ARM Cortex-M Processors",
+								"ARM Cortex-M Architecture Features",
+								"Memory Organization (Flash, SRAM)"
+							]
+						},
+						{
+							"category": "STM Microcontrollers",
+							"subtopics": [
+								"STM32 Family Overview",
+								"Selection of STM32 Microcontroller",
+								"STM32CubeIDE Introduction"
+							]
+						},
+						{
+							"category": "C Programming for Embedded Systems",
+							"subtopics": [
+								"C Language Basics for Embedded Systems",
+								"Register Access and Bit Manipulation",
+								"Volatile Keyword and Memory-Mapped I/O"
+							]
+						},
+						{
+							"category": "Peripheral Initialization and Configuration",
+							"subtopics": [
+								"GPIO Configuration",
+								"Timer Configuration",
+								"Interrupts and NVIC"
+							]
+						},
+						{
+							"category": "Communication Protocols",
+							"subtopics": [
+								"UART, SPI, I2C Protocols",
+								"Implementation and Configuration",
+								"Data Transmission and Reception"
+							]
+						},
+						{
+							"category": "Debugging Techniques",
+							"subtopics": [
+								"Debugging Tools in STM32CubeIDE",
+								"Breakpoints and Watchpoints Usage",
+								"Debugging with Printf"
+							]
+						},
+						{
+							"category": "RTOS (Real-Time Operating System)",
+							"subtopics": [
+								"RTOS Concepts Introduction",
+								"FreeRTOS Basics",
+								"Task Scheduling and Synchronization"
+							]
+						},
+						{
+							"category": "Advanced Peripheral Usage",
+							"subtopics": [
+								"DMA (Direct Memory Access)",
+								"Advanced Timer and PWM Configurations",
+								"Advanced USART and SPI Configurations"
+							]
+						},
+						{
+							"category": "Low Power Modes",
+							"subtopics": [
+								"Low Power Modes Introduction",
+								"Sleep, Stop, and Standby Modes",
+								"Power Consumption Optimization"
+							]
+						},
+						{
+							"category": "Memory Management",
+							"subtopics": [
+								"Memory Types (Flash, SRAM, EEPROM)",
+								"Memory Allocation and Deallocation",
+								"Memory Segmentation and Linker Scripts"
+							]
+						},
+						{
+							"category": "Device Drivers and HAL (Hardware Abstraction Layer)",
+							"subtopics": [
+								"Writing Custom Device Drivers",
+								"HAL Libraries in STM32CubeMX",
+								"Peripheral Libraries and Abstractions"
+							]
+						},
+						{
+							"category": "Bootloader Development",
+							"subtopics": [
+								"Bootloader Overview",
+								"Writing and Flashing a Bootloader",
+								"Firmware Update Strategies"
+							]
+						},
+						{
+							"category": "Security in Embedded Systems",
+							"subtopics": [
+								"Code Protection and Encryption",
+								"Secure Boot and Secure Firmware Update",
+								"Secure Key Storage"
+							]
+						},
+						{
+							"category": "Advanced Communication Protocols",
+							"subtopics": [
+								"CAN (Controller Area Network)",
+								"Ethernet Communication",
+								"Implementing Custom Communication Protocols"
+							]
+						},
+						{
+							"category": "Advanced Power Management",
+							"subtopics": [
+								"Dynamic Voltage and Frequency Scaling (DVFS)",
+								"Power Gating and Clock Gating",
+								"Energy-Efficient Coding Practices"
+							]
+						},
+						{
+							"category": "Fault Tolerance and Reliability",
+							"subtopics": [
+								"Watchdog Timers",
+								"Error Detection and Correction",
+								"Redundancy and Safety-Critical Systems"
+							]
+						},
+						{
+							"category": "Automated Testing in Embedded Systems",
+							"subtopics": [
+								"Unit Testing and Test-Driven Development",
+								"Integration Testing",
+								"Continuous Integration and Deployment"
+							]
+						}
+					]
+				},
+				{
+					"name": "MATLAB",
+					"percentage": "70%",
+					"details": [
+						{
+							"category": "Introduction to MATLAB",
+							"subtopics": [
+								"MATLAB Environment and Navigation",
+								"MATLAB as a Programming Language",
+								"Basic Arithmetic Operations and Variables"
+							]
+						},
+						{
+							"category": "MATLAB Syntax and Programming Basics",
+							"subtopics": [
+								"Scripting vs. Function Files",
+								"Control Flow (If Statements, Loops)",
+								"Basic Data Types and Structures"
+							]
+						},
+						{
+							"category": "Data Exploration and Visualization",
+							"subtopics": [
+								"Loading and Saving Data",
+								"Creating Plots and Charts",
+								"Customizing Visualizations"
+							]
+						},
+						{
+							"category": "MATLAB Functions and Toolboxes",
+							"subtopics": [
+								"Creating and Using Functions",
+								"Overview of Built-in Toolboxes",
+								"Introduction to the Statistics and Machine Learning Toolbox"
+							]
+						},
+						{
+							"category": "Basic Statistics in MATLAB",
+							"subtopics": [
+								"Descriptive Statistics",
+								"Probability Distributions",
+								"Hypothesis Testing"
+							]
+						},
+						{
+							"category": "Linear Algebra in MATLAB",
+							"subtopics": [
+								"Matrix Operations",
+								"Solving Linear Systems",
+								"Eigenvalues and Eigenvectors"
+							]
+						},
+						{
+							"category": "Introduction to Machine Learning",
+							"subtopics": [
+								"Overview of Machine Learning Concepts",
+								"Supervised and Unsupervised Learning",
+								"Basic Machine Learning Algorithms"
+							]
+						},
+						{
+							"category": "Advanced Data Visualization",
+							"subtopics": [
+								"3D Plotting and Visualization",
+								"Geographic Data Visualization",
+								"Interactive Visualizations"
+							]
+						},
+						{
+							"category": "Advanced Statistics",
+							"subtopics": [
+								"Multivariate Statistics",
+								"Time Series Analysis",
+								"Non-parametric Statistics"
+							]
+						},
+						{
+							"category": "MATLAB for Data Preprocessing",
+							"subtopics": [
+								"Data Cleaning and Transformation",
+								"Handling Missing Data",
+								"Feature Scaling and Normalization"
+							]
+						},
+						{
+							"category": "Machine Learning Algorithms",
+							"subtopics": [
+								"Linear Regression and Regularization",
+								"Decision Trees and Ensemble Methods",
+								"Clustering Algorithms (k-means, Hierarchical)"
+							]
+						},
+						{
+							"category": "Deep Learning Basics",
+							"subtopics": [
+								"Neural Networks Fundamentals",
+								"Building and Training Simple Neural Networks",
+								"Activation Functions and Optimization Algorithms"
+							]
+						},
+						{
+							"category": "MATLAB's Artificial Intelligence Toolbox",
+							"subtopics": [
+								"Overview and Usage of the AI Toolbox",
+								"Building and Training Machine Learning Models",
+								"Hyperparameter Tuning"
+							]
+						},
+						{
+							"category": "Text Analytics and Natural Language Processing (NLP)",
+							"subtopics": [
+								"Tokenization and Stemming",
+								"Text Preprocessing",
+								"Sentiment Analysis"
+							]
+						},
+						{
+							"category": "Advanced Deep Learning",
+							"subtopics": [
+								"Convolutional Neural Networks (CNNs)",
+								"Recurrent Neural Networks (RNNs)",
+								"Transfer Learning"
+							]
+						},
+						{
+							"category": "MATLAB's Computer Vision Toolbox",
+							"subtopics": [
+								"Image Processing Basics",
+								"Object Detection and Recognition",
+								"Feature Extraction"
+							]
+						},
+						{
+							"category": "Time Series Analysis and Forecasting",
+							"subtopics": [
+								"ARIMA Models",
+								"Seasonal Decomposition",
+								"Forecasting Techniques"
+							]
+						},
+						{
+							"category": "MATLAB's Reinforcement Learning Toolbox",
+							"subtopics": [
+								"Introduction to Reinforcement Learning",
+								"Building and Training Reinforcement Learning Agents",
+								"Policy and Value Iteration"
+							]
+						},
+						{
+							"category": "Advanced Machine Learning Techniques",
+							"subtopics": [
+								"Support Vector Machines (SVMs)",
+								"Bayesian Methods",
+								"Ensemble Learning and Boosting"
+							]
+						},
+						{
+							"category": "MATLAB's Data Science Toolbox",
+							"subtopics": [
+								"Data Preprocessing and Cleaning Tools",
+								"Advanced Feature Engineering",
+								"Model Validation and Performance Assessment"
+							]
+						},
+						{
+							"category": "MATLAB App Building",
+							"subtopics": [
+								"Creating GUIs (Graphical User Interfaces)",
+								"App Design and Customization",
+								"Interactivity and User Input Handling"
+							]
+						},
+						{
+							"category": "Parallel and Distributed Computing in MATLAB",
+							"subtopics": [
+								"Parallel Computing Basics",
+								"GPU Acceleration",
+								"Distributed Computing with MATLAB Parallel Server"
+							]
+						},
+						{
+							"category": "MATLAB Integration with Other Tools",
+							"subtopics": [
+								"Integration with Databases",
+								"Integration with External APIs",
+								"MATLAB Interoperability with Python and Other Languages"
+							]
+						},
+						{
+							"category": "MATLAB Best Practices and Optimization",
+							"subtopics": [
+								"Code Optimization Techniques",
+								"Memory Management",
+								"Profiling and Benchmarking"
+							]
+						},
+						{
+							"category": "MATLAB for Big Data",
+							"subtopics": [
+								"Handling and Processing Large Datasets",
+								"Scalable Machine Learning Techniques",
+								"Distributed Computing for Big Data Analytics"
+							]
+						},
+						{
+							"category": "MATLAB Deployment",
+							"subtopics": [
+								"Creating Standalone Applications",
+								"MATLAB Compiler and Compiler SDK",
+								"Deploying Models and Applications"
+							]
+						},
+						{
+							"category": "MATLAB Cloud Services",
+							"subtopics": [
+								"MATLAB Online",
+								"MATLAB Drive",
+								"Collaborative Features and Sharing"
+							]
+						},
+						{
+							"category": "MATLAB Community and Resources",
+							"subtopics": [
+								"Leveraging MATLAB Central",
+								"Contributing to the MATLAB Community",
+								"Staying Updated on MATLAB Advancements"
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"title": "Application Software",
+			"years": "More than 5 years of experience",
+			"skills": [
+				{
+					"name": "MathWorks MATLAB + Simulink 2020",
+					"percentage": "50%",
+					"details": [
+						{
+							"category": "MATLAB Basics",
+							"subtopics": [
+								"Introduction to MATLAB environment",
+								"Scripting vs. function files",
+								"Basic arithmetic operations and variables"
+							]
+						},
+						{
+							"category": "MATLAB Programming",
+							"subtopics": [
+								"Control flow (if statements, loops)",
+								"Functions and script files",
+								"Error handling and debugging techniques"
+							]
+						},
+						{
+							"category": "Linear Algebra in MATLAB",
+							"subtopics": [
+								"Matrix and vector operations",
+								"Solving linear systems",
+								"Eigenvalues and eigenvectors"
+							]
+						},
+						{
+							"category": "Data Import and Export",
+							"subtopics": [
+								"Reading and writing data from/to files",
+								"Interfacing with spreadsheets and databases",
+								"Using the Import Tool"
+							]
+						},
+						{
+							"category": "Data Visualization",
+							"subtopics": [
+								"Plotting functions and data",
+								"Customizing plots and figures",
+								"Creating 3D plots and animations"
+							]
+						},
+						{
+							"category": "Advanced MATLAB Graphics",
+							"subtopics": [
+								"Creating interactive plots",
+								"Using graphical user interfaces (GUIs)",
+								"Visualizing data with App Designer"
+							]
+						},
+						{
+							"category": "Signal Processing",
+							"subtopics": [
+								"Time and frequency domain analysis",
+								"Filtering techniques",
+								"Spectral analysis"
+							]
+						},
+						{
+							"category": "Image Processing",
+							"subtopics": [
+								"Basic image operations",
+								"Image enhancement and filtering",
+								"Image segmentation and feature extraction"
+							]
+						},
+						{
+							"category": "MATLAB Toolboxes",
+							"subtopics": [
+								"Statistics and Machine Learning Toolbox",
+								"Optimization Toolbox",
+								"Symbolic Math Toolbox",
+								"Curve Fitting Toolbox"
+							]
+						},
+						{
+							"category": "Simulink Modeling",
+							"subtopics": [
+								"Creating hierarchical models",
+								"Model configurations and settings",
+								"Model navigation and organization"
+							]
+						},
+						{
+							"category": "Simulink Library and Blocksets",
+							"subtopics": [
+								"Overview of Simulink block libraries",
+								"Using predefined blocks",
+								"Custom block creation"
+							]
+						},
+						{
+							"category": "Simulink Simulation",
+							"subtopics": [
+								"Simulation settings and configurations",
+								"Running simulations",
+								"Data logging and visualization"
+							]
+						},
+						{
+							"category": "Signal Routing and Transfer",
+							"subtopics": [
+								"Bus signals and mux/demux blocks",
+								"Signal routing techniques",
+								"Data transfer between subsystems"
+							]
+						},
+						{
+							"category": "Simulink Model Analysis",
+							"subtopics": [
+								"Model verification and validation",
+								"Model coverage analysis",
+								"Profiling and optimization"
+							]
+						},
+						{
+							"category": "Advanced Simulink Techniques",
+							"subtopics": [
+								"Model referencing and hierarchy",
+								"Using Stateflow for state machines",
+								"Custom MATLAB functions in Simulink"
+							]
+						},
+						{
+							"category": "Simulink Real-Time",
+							"subtopics": [
+								"Real-time simulation and testing",
+								"Hardware-in-the-loop (HIL) simulation",
+								"Real-time workshop and deployment"
+							]
+						},
+						{
+							"category": "Simulink Verification and Validation",
+							"subtopics": [
+								"Model checking and formal verification",
+								"Automated testing in Simulink",
+								"Code generation and verification"
+							]
+						},
+						{
+							"category": "Simulink Advanced Topics",
+							"subtopics": [
+								"Simscape Multibody for mechanical systems",
+								"Simulink Design Optimization",
+								"Simscape Electronics for electrical systems"
+							]
+						},
+						{
+							"category": "Simulink Deployment",
+							"subtopics": [
+								"Code generation for various platforms",
+								"Standalone executable generation",
+								"Integrating Simulink models into other applications"
+							]
+						},
+						{
+							"category": "Simulink and MATLAB Integration",
+							"subtopics": [
+								"MATLAB Function blocks",
+								"Simulink-embedded MATLAB integration",
+								"Integrating MATLAB algorithms into Simulink models"
+							]
+						},
+						{
+							"category": "Advanced Signal Processing with DSP System Toolbox",
+							"subtopics": [
+								"Signal processing algorithms",
+								"Filter design and analysis",
+								"Spectral analysis and estimation"
+							]
+						},
+						{
+							"category": "App Building with App Designer",
+							"subtopics": [
+								"Creating custom MATLAB apps",
+								"Designing user interfaces",
+								"Integrating MATLAB code into apps"
+							]
+						},
+						{
+							"category": "Machine Learning with MATLAB",
+							"subtopics": [
+								"Introduction to machine learning in MATLAB",
+								"Building and training machine learning models",
+								"Model deployment and integration"
+							]
+						},
+						{
+							"category": "Deep Learning with MATLAB",
+							"subtopics": [
+								"Neural network fundamentals",
+								"Deep learning workflows in MATLAB",
+								"Transfer learning and pre-trained models"
+							]
+						}
+					]
+				},
+				{
+					"name": "Cadence OrCAD + PSpice 16.6",
+					"percentage": "30%",
+					"details": [
+						{
+							"category": "OrCAD Capture",
+							"subtopics": [
+								"Introduction to OrCAD Capture",
+								"Schematic Design",
+								"Creating and Editing Symbols",
+								"Hierarchical Blocks and Busses",
+								"Advanced Schematic Techniques",
+								"Simulating Circuits"
+							]
+						},
+						{
+							"category": "PSpice",
+							"subtopics": [
+								"Introduction to PSpice",
+								"Analog Simulation",
+								"Digital Simulation",
+								"Monte Carlo Analysis"
+							]
+						},
+						{
+							"category": "OrCAD PCB Editor",
+							"subtopics": [
+								"Introduction to OrCAD PCB Editor",
+								"PCB Design Basics",
+								"Component Placement and Routing Strategies",
+								"Interactive Routing Techniques",
+								"Signal Integrity Analysis",
+								"Power Integrity Analysis"
+							]
+						}
+					]
+				},
+				{
+					"name": "Microsoft Visual Studio 2017/2019",
+					"percentage": "40%",
+					"details": [
+						{
+							"category": "General Concepts",
+							"subtopics": [
+								"Introduction to Visual Studio 2019",
+								"Integrated Development Environment (IDE) Features",
+								"Source Control Integration"
+							]
+						},
+						{
+							"category": "Coding and Programming",
+							"subtopics": [
+								"Programming Languages",
+								"Code Navigation and Search",
+								"Code Editing and Productivity Tools",
+								"Code Debugging",
+								"Unit Testing",
+								"Code Profiling and Performance Tuning"
+							]
+						},
+						{
+							"category": "Application Development",
+							"subtopics": [
+								"Cross-Platform Desktop Application Development",
+								"Cloud Integration",
+								"Database Integration",
+								"Internet of Things (IoT) Development"
+							]
+						},
+						{
+							"category": "Advanced Features",
+							"subtopics": [
+								"Extensibility and Customization",
+								"Advanced Debugging Techniques",
+								"Code Analysis and Code Metrics",
+								"Version Control Integration",
+								"Azure DevOps Integration",
+								"Collaborative Development",
+								"Performance Testing and Load Testing",
+								"Continuous Integration and Deployment (CI/CD)",
+								"Containerization and Docker Integration",
+								"Machine Learning Model Integration"
+							]
+						},
+						{
+							"category": "Miscellaneous",
+							"subtopics": [
+								"Advanced Project Management",
+								"Security Best Practices",
+								"Internationalization and Localization",
+								"Accessibility and Usability"
+							]
+						}
+					]
+				},
+				{
+					"name": "Microsoft SQL Server 2017/2019",
+					"percentage": "30%",
+					"details": [
+						{
+							"category": "Database Basics",
+							"subtopics": [
+								"Microsoft SQL Server Overview",
+								"SQL Server Architecture and Editions",
+								"Installation and Configuration",
+								"SQL Server Management Studio (SSMS)",
+								"Database Design and Modeling"
+							]
+						},
+						{
+							"category": "T-SQL (Transact-SQL)",
+							"subtopics": [
+								"Fundamentals of T-SQL",
+								"Data Retrieval with T-SQL",
+								"Data Modification and Transactions",
+								"Stored Procedures and Functions",
+								"Triggers and Views"
+							]
+						},
+						{
+							"category": "Advanced T-SQL",
+							"subtopics": [
+								"Advanced Query Optimization",
+								"Window Functions in T-SQL",
+								"Common Table Expressions (CTEs)",
+								"Dynamic SQL Techniques"
+							]
+						},
+						{
+							"category": "SQL Server Administration",
+							"subtopics": [
+								"SQL Server Configuration",
+								"Backup and Restore Strategies",
+								"Security and Authentication",
+								"High Availability and Disaster Recovery",
+								"Performance Monitoring and Tuning"
+							]
+						},
+						{
+							"category": "SQL Server Integration Services (SSIS)",
+							"subtopics": [
+								"SSIS Architecture and Components",
+								"Data Extraction and Loading in SSIS",
+								"Data Transformation with SSIS",
+								"Error Handling and Logging in SSIS"
+							]
+						},
+						{
+							"category": "SQL Server Reporting Services (SSRS)",
+							"subtopics": [
+								"SSRS Architecture and Components",
+								"Report Development in SSRS",
+								"Data Sources and Data Sets in SSRS",
+								"Advanced SSRS Features"
+							]
+						},
+						{
+							"category": "SQL Server Analysis Services (SSAS)",
+							"subtopics": [
+								"SSAS Architecture and Components",
+								"Cube Development in SSAS",
+								"MDX (Multidimensional Expressions)",
+								"Data Mining and Predictive Analytics in SSAS"
+							]
+						},
+						{
+							"category": "Advanced Topics",
+							"subtopics": [
+								"PolyBase and Big Data Integration",
+								"Temporal Tables and System-Versioned Tables",
+								"JSON Support in SQL Server",
+								"SQL Server Machine Learning Services"
+							]
+						}
+					]
+				},
+				{
+					"name": "Anaconda Environment",
+					"percentage": "70%",
+					"details": [
+						{
+							"category": "Core Concepts",
+							"subtopics": [
+								"Introduction to Anaconda Distribution",
+								"Components: Python, Conda, etc.",
+								"Anaconda Navigator and CLI",
+								"Managing Virtual Environments with Conda",
+								"Environment Configuration and Dependencies"
+							]
+						},
+						{
+							"category": "Python Programming",
+							"subtopics": [
+								"Python Syntax and Data Types",
+								"Control Flow: If Statements, Loops",
+								"Functions and Modules",
+								"NumPy and Array Operations",
+								"Pandas for Data Analysis"
+							]
+						},
+						{
+							"category": "Data Visualization",
+							"subtopics": [
+								"Matplotlib and Seaborn for Plotting",
+								"Interactive Visualizations with Plotly and Bokeh"
+							]
+						},
+						{
+							"category": "Machine Learning Libraries",
+							"subtopics": [
+								"Scikit-Learn for Machine Learning",
+								"Deep Learning with TensorFlow and Keras",
+								"PyTorch for Neural Networks"
+							]
+						},
+						{
+							"category": "Data Science Workflow",
+							"subtopics": [
+								"Jupyter Notebooks for Interactive Computing",
+								"Version Control with Git",
+								"Data Cleaning and Preprocessing"
+							]
+						},
+						{
+							"category": "Advanced Topics",
+							"subtopics": [
+								"Conda for Package Management",
+								"Environment Reproducibility",
+								"Docker and Containerization",
+								"Distributed Computing with Dask"
+							]
+						},
+						{
+							"category": "Integration with Big Data Tools",
+							"subtopics": [
+								"Apache Spark with PySpark",
+								"Hadoop Ecosystem Integration"
+							]
+						},
+						{
+							"category": "Deployment and Productionization",
+							"subtopics": [
+								"Model Deployment with Flask and FastAPI",
+								"Cloud Integration (AWS, Azure, GCP)",
+								"CI/CD for Data Science Projects"
+							]
+						},
+						{
+							"category": "Advanced Analytics and Statistics",
+							"subtopics": [
+								"Statistical Analysis with SciPy",
+								"Time Series Analysis"
+							]
+						},
+						{
+							"category": "Optimization and Scalability",
+							"subtopics": [
+								"Code Optimization Techniques",
+								"Scalable Machine Learning"
+							]
+						},
+						{
+							"category": "Monitoring and Debugging",
+							"subtopics": [
+								"Logging and Monitoring Tools",
+								"Debugging with Visual Studio Code"
+							]
+						},
+						{
+							"category": "Miscellaneous",
+							"subtopics": [
+								"Natural Language Processing (NLP)",
+								"Geospatial Data Analysis",
+								"Reinforcement Learning",
+								"Quantitative Finance with Python"
+							]
+						}
+					]
+				},
+				{
+					"name": "Microsoft Office + Visio 2013/2016/2019",
+					"percentage": "40%",
+					"details": [
+						{
+							"application": "Microsoft Word 2013/2016/2019",
+							"topics": [
+								{
+									"category": "Document Creation and Formatting",
+									"subtopics": [
+										"Document Structure and Storage",
+										"Text Formatting with Styles",
+										"Paragraph Formatting and Styles",
+										"Advanced Page Layout"
+									]
+								},
+								{
+									"category": "Advanced Text Editing",
+									"subtopics": [
+										"Headers, Footers, and Sections",
+										"Page Numbering and Section Breaks",
+										"Advanced Table Formatting",
+										"Hyperlinks and Bookmarks"
+									]
+								},
+								{
+									"category": "Document Review and Collaboration",
+									"subtopics": [
+										"Track Changes and Comments",
+										"Document Comparison and Merging",
+										"Real-Time Co-authoring",
+										"Document Protection and Encryption"
+									]
+								},
+								{
+									"category": "Mail Merge and Forms",
+									"subtopics": [
+										"Mail Merge Document Creation",
+										"Data Source Integration",
+										"Designing Protected Forms"
+									]
+								}
+							]
+						},
+						{
+							"application": "Microsoft Excel 2013/2016/2019",
+							"topics": [
+								{
+									"category": "Basic Spreadsheet Operations",
+									"subtopics": [
+										"Workbook and Worksheet Navigation",
+										"Data Entry and Cell Formatting",
+										"Basic Formulas and Functions",
+										"AutoFill and Flash Fill"
+									]
+								},
+								{
+									"category": "Advanced Formulas and Functions",
+									"subtopics": [
+										"Nested Functions and Array Formulas",
+										"Lookup and Reference Functions",
+										"Statistical and Financial Functions",
+										"Data Validation and Drop-down Lists"
+									]
+								},
+								{
+									"category": "Data Analysis and Visualization",
+									"subtopics": [
+										"Sorting and Filtering Data",
+										"PivotTables and PivotCharts",
+										"Data Tables and Scenarios",
+										"Sparklines and Conditional Formatting"
+									]
+								},
+								{
+									"category": "Data Import and Export",
+									"subtopics": [
+										"Importing Data from External Sources",
+										"Exporting Data to Different Formats",
+										"Power Query and Power Pivot",
+										"External Data Connections"
+									]
+								}
+							]
+						},
+						{
+							"application": "Microsoft PowerPoint 2013/2016/2019",
+							"topics": [
+								{
+									"category": "Creating Presentations",
+									"subtopics": [
+										"Slide Layout and Design",
+										"Text Formatting and Styling",
+										"Inserting Media and SmartArt",
+										"Master Slides and Themes"
+									]
+								},
+								{
+									"category": "Animation and Transitions",
+									"subtopics": [
+										"Slide Transition Effects",
+										"Entrance, Exit, and Emphasis Animations",
+										"Timing and Sequencing",
+										"Customizing Slide Shows"
+									]
+								},
+								{
+									"category": "Slide Show Interactivity",
+									"subtopics": [
+										"Action Buttons and Hyperlinks",
+										"Custom Slide Show Settings",
+										"Presenter View and Annotations",
+										"Recording and Rehearsing Timings"
+									]
+								},
+								{
+									"category": "Collaborative Editing and Sharing",
+									"subtopics": [
+										"Co-authoring Features",
+										"Commenting and Reviewing",
+										"Sharing and Exporting Options",
+										"Securing Presentations"
+									]
+								}
+							]
+						},
+						{
+							"application": "Microsoft OneNote 2013/2016/2019",
+							"topics": [
+								{
+									"category": "Note-Taking and Organization",
+									"subtopics": [
+										"Creating Notebooks and Sections",
+										"Text Formatting and Tagging",
+										"Categorizing and Searching Notes"
+									]
+								},
+								{
+									"category": "Audio and Video Integration",
+									"subtopics": [
+										"Recording Audio and Video Notes",
+										"Embedding Multimedia Content",
+										"Linked Notes and Audio Indexing"
+									]
+								},
+								{
+									"category": "Drawing and Handwriting",
+									"subtopics": [
+										"Inking and Drawing Tools",
+										"Converting Ink to Text",
+										"Shapes and Handwriting Recognition"
+									]
+								},
+								{
+									"category": "Notebook Sharing and Collaboration",
+									"subtopics": [
+										"Sharing Notebooks with Others",
+										"Collaborative Editing and Syncing",
+										"Version History and Backup Options"
+									]
+								}
+							]
+						},
+						{
+							"application": "Microsoft Outlook 2013/2016/2019",
+							"topics": [
+								{
+									"category": "Email Management",
+									"subtopics": [
+										"Sending and Receiving Emails",
+										"Organizing Emails into Folders",
+										"Filters and Rules",
+										"Signature and Out of Office Settings"
+									]
+								},
+								{
+									"category": "Calendar and Scheduling",
+									"subtopics": [
+										"Creating and Managing Appointments",
+										"Scheduling and Organizing Meetings",
+										"Calendar Sharing and Delegation",
+										"Meeting Responses and Tracking"
+									]
+								},
+								{
+									"category": "Contact and Task Management",
+									"subtopics": [
+										"Managing Contacts and Distribution Lists",
+										"Creating and Assigning Tasks",
+										"Categorizing and Prioritizing Tasks",
+										"Task Delegation and Tracking"
+									]
+								},
+								{
+									"category": "Advanced Email Features",
+									"subtopics": [
+										"Focused Inbox and Clutter",
+										"Conversation View and Threading",
+										"Delayed Sending and Recall",
+										"Advanced Search and Filtering"
+									]
+								}
+							]
+						},
+						{
+							"application": "Microsoft Visio 2013/2016/2019",
+							"topics": [
+								{
+									"category": "Diagram Creation",
+									"subtopics": [
+										"Creating Flowcharts and Diagrams",
+										"Shapes and Connectors",
+										"Container and Callout Shapes",
+										"Custom Stencils and Templates"
+									]
+								},
+								{
+									"category": "Data Linking and Organization",
+									"subtopics": [
+										"Linking Data to Shapes",
+										"Organization Charts and Hierarchies",
+										"Data Graphics and Icon Sets",
+										"Cross-functional Flowcharts"
+									]
+								},
+								{
+									"category": "Process Mapping and Validation",
+									"subtopics": [
+										"BPMN (Business Process Model and Notation)",
+										"Validation Rules and Diagram Checking",
+										"Swimlane Diagrams and Subprocesses",
+										"Simulating and Testing Processes"
+									]
+								},
+								{
+									"category": "Advanced Features",
+									"subtopics": [
+										"Shape Data and Custom Properties",
+										"Macros and Automation",
+										"Database Diagrams and ERD",
+										"SharePoint Integration"
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "COMSOL Multiphysics 5.6",
+					"percentage": "50%",
+					"details": [
+						{
+							"category": "Core Electromagnetics Concepts",
+							"subtopics": [
+								"Introduction to Electromagnetic Modeling",
+								"Fundamentals of Electromagnetics",
+								"Magnetic and Electric Fields",
+								"Maxwell's Equations and Constitutive Relations"
+							]
+						},
+						{
+							"category": "Geometry and Material Modeling",
+							"subtopics": [
+								"Geometry Creation for Electromagnetic Simulations",
+								"Material Properties for Electromagnetic Simulations",
+								"Material Libraries and Nonlinear Materials"
+							]
+						},
+						{
+							"category": "Meshing Techniques",
+							"subtopics": [
+								"Meshing for Electromagnetic Simulations",
+								"Mesh Generation and Control",
+								"Mesh Independence Study"
+							]
+						},
+						{
+							"category": "Frequency and Time Domain Simulations",
+							"subtopics": [
+								"Frequency Domain Analysis",
+								"Eigenfrequency Analysis",
+								"Transient Electromagnetic Analysis"
+							]
+						},
+						{
+							"category": "Solvers and Solution Methods",
+							"subtopics": [
+								"Solver Settings for Electromagnetic Simulations",
+								"Boundary Conditions and Symmetry",
+								"Iterative Solvers and Preconditioning Techniques"
+							]
+						},
+						{
+							"category": "Specific Electromagnetic Applications",
+							"subtopics": [
+								"Magnetic Field Modeling",
+								"Electric Field Modeling",
+								"Electromagnetic Waves and Antennas"
+							]
+						},
+						{
+							"category": "Advanced Electromagnetic Modeling",
+							"subtopics": [
+								"Multiphysics Coupling",
+								"Eddy Currents and Magnetic Heating",
+								"Permanent Magnet Modeling"
+							]
+						},
+						{
+							"category": "Optimization and Parametric Studies",
+							"subtopics": [
+								"Optimization for Electromagnetic Designs",
+								"Parametric Sweeps and Studies",
+								"Sensitivity Analysis"
+							]
+						},
+						{
+							"category": "Application-Specific Modules",
+							"subtopics": [
+								"RF Module",
+								"AC/DC Module",
+								"Microwave Circuit Design"
+							]
+						},
+						{
+							"category": "Post-Processing and Visualization",
+							"subtopics": [
+								"Post-Processing Tools",
+								"Field Overlays and Probes",
+								"Extracting Results for Analysis"
+							]
+						},
+						{
+							"category": "Troubleshooting and Debugging",
+							"subtopics": [
+								"Convergence and Accuracy",
+								"Troubleshooting Electromagnetic Simulations",
+								"Addressing Singularities and Meshing Challenges"
+							]
+						},
+						{
+							"category": "Advanced Topics",
+							"subtopics": [
+								"High-Frequency Electromagnetics",
+								"Nonlinear Electromagnetic Modeling",
+								"Harmonic Balance Analysis"
+							]
+						},
+						{
+							"category": "Customization and Scripting",
+							"subtopics": [
+								"COMSOL Scripting with MATLAB",
+								"Application Builder for Electromagnetics",
+								"User Interface Design"
+							]
+						},
+						{
+							"category": "Case Studies and Real-World Applications",
+							"subtopics": [
+								"Industrial Applications of Electromagnetic Simulation: li-ion battery, DC & AC Motors",
+								"Sensors and Actuators"
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"other_activities": {
+		"Associate Team Member": "Actively worked for the Institute annual Techno-Management fest: Wissenaire under the Web & Design Team as the Graphics Designer",
+		"Badminton Team": "A Key Member of the Badminton Team and played badminton tournaments for the Institute",
+		"Events Management": "A Core Head of Events Management Team of Institute’s Alumni Cell",
+		"IIT BBS RISC Club": "A former core member of the RISC (Robotics and Intelligent Systems Club), took part in many events organized within and outside our Institute",
+		"Blog": "Maintains my own technical and personal blog at Medium and Wordpress respectively",
+		"2D Graphics Design": "A Passionate Graphics Designer of Magazine, Poster, Flyer, Product Brochure etc. using software tools such as Adobe Photoshop, Adobe Illustrator, Adobe Fireworks, Adobe InDesign, Adobe InCopy and Adobe Acrobat Pro"
+	}
+}

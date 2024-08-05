@@ -1,0 +1,38 @@
+The "Modal.js" file contains a React functional component named `Modal`. This component is responsible for rendering a collection of modals based on the provided `data` prop and handling their visibility state.
+
+Here's a summary of its content:
+
+1. **Imports**:
+   - Imports `useState` hook from 'react' for managing component state.
+
+2. **Modal Component**:
+   - Functional component defined using arrow function syntax.
+   - Accepts a prop named `data`.
+
+3. **State Management**:
+   - Utilizes the `useState` hook to manage the state of modal visibility (`modalOpen` state variable). This state variable tracks the open state of each modal based on its index.
+
+4. **Toggle Modal Function**:
+   - Defines a function named `toggleModal` that toggles the visibility of a specific modal based on its index.
+   - Uses the `setModalOpen` function to update the state by flipping the boolean value of the modal's index in the `modalOpen` object.
+
+5. **Rendering Modals**:
+   - Maps through the `data` array to generate multiple modal components based on the provided data.
+   - For each item in the `data` array, it renders a modal content section.
+   - Each modal consists of content such as a title, subtitle, a "View More" button, and additional details.
+   - Clicking the "View More" button triggers the `toggleModal` function to show/hide the corresponding modal.
+
+6. **Modal Structure**:
+   - Each modal has a title, subtitle, and an expandable section containing more details, which are initially hidden.
+   - Clicking on the "View More" button expands the details section.
+   - The `active-modal` class is conditionally applied to show or hide a modal based on its corresponding state in the `modalOpen` object.
+
+7. **Styling**:
+   - Uses CSS classes like "services__container", "services__content", "services__modal", etc., to structure and style different elements within the modals.
+
+8. **Functionality**:
+   - Generates a collection of modals based on the provided data.
+   - Manages the visibility of each modal using state management and a toggle function.
+   - Allows users to expand and view additional details for each item by clicking the "View More" button.
+
+Overall, the `Modal` component is responsible for creating a set of modals based on the given data and controlling their visibility state, allowing users to view additional details when toggling the modals via the "View More" button.

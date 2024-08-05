@@ -1,0 +1,11 @@
+The `index.js` file serves as an entry point to export various components from different files within the project:
+
+1. **Dashboard:** Exported from `"./Dashboard"` - This component defines the main dashboard interface, displaying personal information, recent work, and technical skills.
+
+2. **Resume:** Exported from `"./Resume"` - Presumably, this component handles the display of a resume or CV.
+
+3. **AboutMe:** Exported from `"./AboutMe"` - Likely responsible for showcasing information about the individual, providing a deeper insight into their background, skills, or interests.
+
+4. **PageNotFound:** Exported from `"./PageNotFound"` - This component is used to display a custom 404 error page when a user accesses a non-existent URL or route.
+
+These exports allow other parts of the application to easily import and use these specific components without having to directly reference their file paths, promoting a modular and organized structure within the project.

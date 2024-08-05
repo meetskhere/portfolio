@@ -1,0 +1,32 @@
+The "QualificationTable.js" file contains a React functional component named `QualificationTable`. This component is designed to display educational qualification data in a table format based on the provided `data`.
+
+Here's a summary of its content:
+
+1. **Functional Component**:
+   - Defines a functional component named `QualificationTable`.
+   - Accepts a single `data` parameter.
+
+2. **Rendering Qualification Table**:
+   - Generates a `<div>` container with the class "educational__container" to wrap the table component.
+   - Renders a `<table>` element with the class "carousel-table" to represent the educational qualification data in tabular format.
+
+3. **Table Structure**:
+   - Contains `<thead>` (table header) and `<tbody>` (table body) elements.
+   - The table header contains row `<tr>` with class "table__header" and includes five table header cells (`<th>` elements) displaying column titles: "Year", "Degree/Certificate", "School/Institution enrolled", "Percentage/CGPA obtained", and "Specialization".
+
+4. **Populating Table Rows**:
+   - Maps through the `data.education` array to populate the table rows.
+   - For each item in the `data.education` array, it generates a row (`<tr>` element) with the class "table__description".
+   - Each row contains five table data cells (`<td>` elements) displaying specific educational details such as year (`item.year`), degree/certificate (`item.degree`), school/institution enrolled (`item.school`), percentage/CGPA obtained (`item.score`), and specialization (`item.subjects`).
+
+5. **Styling**:
+   - Applies CSS classes such as "carousel-table", "table__header", "table__description", "cell__header", "cell__description", etc., for table structure and cell formatting.
+
+6. **Looping through Educational Data**:
+   - Loops through the provided `data.education` array to dynamically display educational qualification details in the table.
+
+7. **Purpose**:
+   - Designed to present educational qualification information such as year, degree/certificate, school/institution enrolled, grades obtained, and specialization in a structured tabular format.
+
+8. **Export**:
+   - Exports the `QualificationTable` component using the named export syntax, making it available for import and use in other parts of the application to display educational qualification data in a tabular layout.
