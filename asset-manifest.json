@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.041bb00b.css",
-    "main.js": "/portfolio/static/js/main.59b55514.js",
-    "static/media/User_noBackground.png": "/portfolio/static/media/User_noBackground.692f39f5abe3ed23e30b.png",
-    "static/media/CV.pdf": "/portfolio/static/media/CV.a1e2a652026401b2ae7e.pdf",
-    "static/media/vcard.vcf": "/portfolio/static/media/vcard.0a4c3b736ac53b9f6276.vcf",
-    "static/media/User.jpg": "/portfolio/static/media/User.36cd59f76ceeb9277d06.jpg",
-    "static/media/QR_CODE.png": "/portfolio/static/media/QR_CODE.c4c396c56bb2b4e30a45.png",
-    "static/media/img1.jpg": "/portfolio/static/media/img1.b100f823e1d9a2e55cca.jpg",
-    "static/media/003-curriculum-vitae.png": "/portfolio/static/media/003-curriculum-vitae.f033bb2896a043a5f170.png",
-    "static/media/Wikipedia.svg": "/portfolio/static/media/Wikipedia.b1d901e6680a1d04ad39ee145f75c9ec.svg",
-    "index.html": "/portfolio/index.html",
-    "main.041bb00b.css.map": "/portfolio/static/css/main.041bb00b.css.map",
-    "main.59b55514.js.map": "/portfolio/static/js/main.59b55514.js.map"
+    "main.css": "/portfolio/dashboard/static/css/main.041bb00b.css",
+    "main.js": "/portfolio/dashboard/static/js/main.67b2f177.js",
+    "static/media/User_noBackground.png": "/portfolio/dashboard/static/media/User_noBackground.692f39f5abe3ed23e30b.png",
+    "static/media/CV.pdf": "/portfolio/dashboard/static/media/CV.a1e2a652026401b2ae7e.pdf",
+    "static/media/vcard.vcf": "/portfolio/dashboard/static/media/vcard.0a4c3b736ac53b9f6276.vcf",
+    "static/media/User.jpg": "/portfolio/dashboard/static/media/User.36cd59f76ceeb9277d06.jpg",
+    "static/media/QR_CODE.png": "/portfolio/dashboard/static/media/QR_CODE.c4c396c56bb2b4e30a45.png",
+    "static/media/img1.jpg": "/portfolio/dashboard/static/media/img1.b100f823e1d9a2e55cca.jpg",
+    "static/media/003-curriculum-vitae.png": "/portfolio/dashboard/static/media/003-curriculum-vitae.f033bb2896a043a5f170.png",
+    "static/media/Wikipedia.svg": "/portfolio/dashboard/static/media/Wikipedia.b1d901e6680a1d04ad39ee145f75c9ec.svg",
+    "index.html": "/portfolio/dashboard/index.html",
+    "main.041bb00b.css.map": "/portfolio/dashboard/static/css/main.041bb00b.css.map",
+    "main.67b2f177.js.map": "/portfolio/dashboard/static/js/main.67b2f177.js.map"
   },
   "entrypoints": [
     "static/css/main.041bb00b.css",
-    "static/js/main.59b55514.js"
+    "static/js/main.67b2f177.js"
   ]
 }
