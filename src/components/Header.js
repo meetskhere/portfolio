@@ -91,7 +91,7 @@ export const Header = () => {
     // Determine which tab should be active based on the pathname
     if (pathname === '/portfolio/dashboard') {
       setActiveTab('dashboard');
-    } else if (pathname === '/portfolio/Resume') {
+    } else if (pathname === '/portfolio/resume') {
       setActiveTab('resume');
     } else if (pathname === '/portfolio/aboutMe') {
       setActiveTab('aboutMe');
@@ -111,7 +111,7 @@ export const Header = () => {
   return (
     <header className={`header ${scrolling ? 'scroll-header' : ''}`} id="header">
       <nav className="nav container">
-        <NavLink to="/" className="nav__logo">
+        <NavLink to="/portfolio/dashboard" className="nav__logo">
           <div className='username'>
             <img className="username__icon" src={profilepic} alt="" />
             {/* <i className="uil uil-user contact__icon"></i> */}
@@ -141,14 +141,14 @@ export const Header = () => {
             </li>
 
             <li className="nav__item">
-              <NavLink className={`nav__link ${activeTab === 'resume' ? 'active-link' : ''}`} to="/portfolio/Resume">
+              <NavLink className={`nav__link ${activeTab === 'resume' ? 'active-link' : ''}`} to="/portfolio/resume">
                 <i className="uil uil-university nav__icon"></i>
                 Portfolio
               </NavLink>
             </li>
 
             <li className="nav__item">
-              <NavLink className={`nav__link ${activeTab === 'aboutMe' ? 'active-link' : ''}`} to="portfolio/aboutMe">
+              <NavLink className={`nav__link ${activeTab === 'aboutMe' ? 'active-link' : ''}`} to="/portfolio/aboutMe">
                 <i className="uil uil-user nav__icon"></i>
                 Profile
               </NavLink>
