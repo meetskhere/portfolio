@@ -89,11 +89,11 @@ export const Header = () => {
     const pathname = location.pathname;
 
     // Determine which tab should be active based on the pathname
-    if (pathname === '/') {
+    if (pathname === '/portfolio/dashboard') {
       setActiveTab('dashboard');
     } else if (pathname === '/portfolio/Resume') {
       setActiveTab('resume');
-    } else if (pathname === '/aboutMe') {
+    } else if (pathname === '/portfolio/aboutMe') {
       setActiveTab('aboutMe');
     } else {
       // Default to no active tab if the route doesn't match any tabs

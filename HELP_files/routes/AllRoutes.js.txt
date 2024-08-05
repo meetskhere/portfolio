@@ -9,9 +9,9 @@ The `AllRoutes.js` file configures the routing for different pages within a Reac
 3. **Route Definitions:**
    - Uses the `Route` component to define various paths and map them to specific page components.
    - Configures the following routes:
-     - `/`: Associates the root URL with the `Dashboard` component.
+     - `/portfolio/dashboard`: Associates the root URL with the `Dashboard` component.
      - `/portfolio/Resume`: Maps the `/portfolio/Resume` path to the `Resume` component.
-     - `/aboutMe`: Associates the `/aboutMe` path with the `AboutMe` component.
+     - `/portfolio/aboutMe`: Associates the `/aboutMe` path with the `AboutMe` component.
      - `*` (Wildcard): Matches any undefined route and renders the `PageNotFound` component. This route serves as a fallback for undefined paths.
 
 4. **Wrapping Components:**
