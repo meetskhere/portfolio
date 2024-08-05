@@ -134,21 +134,21 @@ export const Header = () => {
           <ul className="nav__list grid">
 
             <li className="nav__item">
-              <NavLink className={`nav__link ${activeTab === 'dashboard' ? 'active-link' : ''}`} to="/">
+              <NavLink className={`nav__link ${activeTab === 'dashboard' ? 'active-link' : ''}`} to="/portfolio/dashboard">
                 <i className="uil uil-estate nav__icon"></i>
                 Dashboard
               </NavLink>
             </li>
 
             <li className="nav__item">
-              <NavLink className={`nav__link ${activeTab === 'resume' ? 'active-link' : ''}`} to="/portfolio/Resume">
+              <NavLink className={`nav__link ${activeTab === 'resume' ? 'active-link' : ''}`} to="/portfolio/resume">
                 <i className="uil uil-university nav__icon"></i>
                 Portfolio
               </NavLink>
             </li>
 
             <li className="nav__item">
-              <NavLink className={`nav__link ${activeTab === 'aboutMe' ? 'active-link' : ''}`} to="/aboutMe">
+              <NavLink className={`nav__link ${activeTab === 'aboutMe' ? 'active-link' : ''}`} to="portfolio/aboutme">
                 <i className="uil uil-user nav__icon"></i>
                 Profile
               </NavLink>
