@@ -89,7 +89,7 @@ export const Header = () => {
     const pathname = location.pathname;
 
     // Determine which tab should be active based on the pathname
-    if (pathname === '/portfolio/dashboard') {
+    if (pathname === '/portfolio') {
       setActiveTab('dashboard');
     } else if (pathname === '/portfolio/resume') {
       setActiveTab('resume');
@@ -111,7 +111,7 @@ export const Header = () => {
   return (
     <header className={`header ${scrolling ? 'scroll-header' : ''}`} id="header">
       <nav className="nav container">
-        <NavLink to="/portfolio/dashboard" className="nav__logo">
+        <NavLink to="/portfolio" className="nav__logo">
           <div className='username'>
             <img className="username__icon" src={profilepic} alt="" />
             {/* <i className="uil uil-user contact__icon"></i> */}
@@ -134,7 +134,7 @@ export const Header = () => {
           <ul className="nav__list grid">
 
             <li className="nav__item">
-              <NavLink className={`nav__link ${activeTab === 'dashboard' ? 'active-link' : ''}`} to="/portfolio/dashboard">
+              <NavLink className={`nav__link ${activeTab === 'dashboard' ? 'active-link' : ''}`} to="/portfolio">
                 <i className="uil uil-estate nav__icon"></i>
                 Dashboard
               </NavLink>
