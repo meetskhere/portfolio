@@ -1,9 +1,4 @@
-// import { SwiperSlides } from './SwiperSlides';
-
-// import JsonPortfolio from "../assets/json/Portfolio.json"
-
-import img1 from '../assets/img/slides/img1.jpg'
-// import img2 from '../assets/img/img2.jpg'
+import slides from '../assets/img/slides';
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -24,6 +19,8 @@ export const Slides = ({ data }) => {
     const descriptions = data.content.description || [];
     const links = data.content.link || [];
 
+    console.log(slides)
+
     return (
         <>
             <Swiper
@@ -43,29 +40,23 @@ export const Slides = ({ data }) => {
                     disableOnInteraction: false,
                 }}
             >
-                {titles.map((title, index) => (
+                {slides.map((slide, index) => (
                     <SwiperSlide key={index} className='portfolio__content grid'>
-                        <img src={`slides/img${index + 1}.jpg`} alt={`Slide ${index + 1}`} className="portfolio__img" />
-                        {/* Ensure you have valid indexes for descriptions, links, and images */}
+                        <img src={slide} alt={`Slide ${index}`} className="portfolio__img" />
                         <div className="portfolio__data">
-                            <h3 className="portfolio__title">{title}</h3>
+                            <h3 className="portfolio__title">{titles[index]}</h3>
                             {/* Check if descriptions, links, and images exist at the same index */}
                             {index < descriptions.length && (
                                 <p className="portfolio__description">{descriptions[index]}</p>
                             )}
-                            
-                                <a href={links[index]} target='_blank' className="button button--flex button--small portfolio__button">
-                                    Read Full Article
-                                    <i className="uil uil-arrow-right button__icon"></i>
-                                </a>
-                            
-                            {/* Add logic to handle images (assuming you have URLs in a separate array) */}
-                            {/* Make sure to provide valid image URLs */}
-                            {/* Example: <img src={imageURLs[index]} alt={`Slide ${index}`} className="portfolio__img" /> */}
+
+                            <a href={links[index]} target='_blank' className="button button--flex button--small portfolio__button">
+                                Read Full Article
+                                <i className="uil uil-arrow-right button__icon"></i>
+                            </a>
                         </div>
                     </SwiperSlide>
                 ))}
-
                 {/* <!-- Add Arrows --> */}
                 <div className="swiper-button-next">
                     <i className="uil uil-angle-right-b swiper-portfolio-icon"></i>
@@ -73,10 +64,7 @@ export const Slides = ({ data }) => {
                 <div className="swiper-button-prev">
                     <i className="uil uil-angle-left-b swiper-portfolio-icon"></i>
                 </div>
-
-                {/* <!-- Add Pagination --> */}
-                {/* <div className="swiper-pagination"></div> */}
             </Swiper>
         </>
-    )
+    );
 }
