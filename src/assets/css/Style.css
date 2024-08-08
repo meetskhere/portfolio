@@ -1675,7 +1675,7 @@ img {
   }
 
   .nav {
-    height: calc(var(--header-height)+ 5rem);
+    /* height: calc(var(--header-height)+ 5rem); */
     column-gap: 1rem;
   }
 
