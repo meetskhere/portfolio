@@ -1,7 +1,7 @@
 
 export const BulletCard = ({ icon, title, data }) => {
     return (
-        <div className="interests__container container bullet__card">
+        <div className="container bullet__card">
             {title && <h3 className='subtitle bullet__card__subtitle'>{title}</h3>}
             <ul >
                 {data.map((item, index) => (
