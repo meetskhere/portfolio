@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Header, Footer, ScrollUp } from "../components/index"
 import OpenStreetMapLink from '../components/OpenStreetMapLink';
 
@@ -15,8 +16,21 @@ import JsonPortfolio from '../assets/json/Portfolio.json'
 import { Tooltip as ReactTooltip } from "react-tooltip";
 
 import "../assets/css/Style.css"
+import { color } from "framer-motion";
 
 export const AboutMe = () => {
+
+  let text = JsonPortfolio.long_summary;
+  const formattedText = text.replace(/\n/g, '<br />');
+
+  const [isReadMore, setIsReadMore] = useState(true);
+
+  const toggleReadMore = () => {
+    setIsReadMore(!isReadMore);
+  };
+
+  // Split the text into words and limit to the first 100
+  const previewText = text.split(' ').slice(0, 120).join(' ');
 
   return (
     <div>
@@ -30,8 +44,12 @@ export const AboutMe = () => {
           <img src={profilePic} alt="" className="about__img" />
 
           <div className="about__data">
-            <p className="about__description">{JsonPortfolio.brief_summary}</p>
-
+            <p className="about__description">
+              {isReadMore ? `${previewText}...` : <span dangerouslySetInnerHTML={{ __html: formattedText }} />}
+              <span className="read" onClick={toggleReadMore}>
+                {isReadMore ? "Read More" : "Show Less"}
+              </span>
+            </p>
             <div className="about__info">
               <div>
                 <span className="about__info-title">{JsonPortfolio.brief_information.experience[0]}</span>
@@ -69,21 +87,21 @@ export const AboutMe = () => {
 
           <div className="contact__info">
 
-            <a href={`tel:${JsonAcademicData.contact.mobile.work}`} className="contact__information">
+            <a href={`tel:${JsonPortfolio.contact.mobile.work}`} className="contact__information">
               <i className="uil uil-phone contact__icon"></i>
 
               <div>
                 <h3 className="contact__title">Call Me</h3>
-                <span className="contact__subtitle">{JsonAcademicData.contact.mobile.work}</span>
+                <span className="contact__subtitle">{JsonPortfolio.contact.mobile.work}</span>
               </div>
             </a>
 
-            <a href={`mailto:${JsonAcademicData.contact.email[1]}`} className="contact__information">
+            <a href={`mailto:${JsonPortfolio.contact.email[1]}`} className="contact__information">
 
               <i className="uil uil-envelope contact__icon"></i>
 
               <div>
-                <h3 className="contact__title">Mail Me</h3>
+                <h3 className="contact__title">Email Me</h3>
                 <span className="contact__subtitle email">{JsonAcademicData.contact.email[1]}</span>
               </div>
             </a>
@@ -101,6 +119,9 @@ export const AboutMe = () => {
 
           <div className="qr__code__info">
             <img className="qr-code" src={qr_code_src} alt="" srcSet="" />
+            <div className="tray">
+              <span>Scan Me</span>
+            </div>
           </div>
         </div>
 
@@ -138,14 +159,6 @@ export const AboutMe = () => {
               </a>
 
               <ReactTooltip id="my-tooltip-3" place="bottom" content="Twitter" />
-            </div>
-
-            <div className="social__information">
-              <a data-tooltip-id="my-tooltip-4" href="https://www.quora.com/profile/Shubham-Kumar-1134" target="_blank" rel="noopener noreferrer">
-                <svg className="contact__icon__position contact__icon contact__icon__adjust" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M440.5 386.7h-29.3c-1.5 13.5-10.5 30.8-33 30.8-20.5 0-35.3-14.2-49.5-35.8 44.2-34.2 74.7-87.5 74.7-153C403.5 111.2 306.8 32 205 32 105.3 32 7.3 111.7 7.3 228.7c0 134.1 131.3 221.6 249 189C276 451.3 302 480 351.5 480c81.8 0 90.8-75.3 89-93.3zM297 329.2C277.5 300 253.3 277 205.5 277c-30.5 0-54.3 10-69 22.8l12.2 24.3c6.2-3 13-4 19.8-4 35.5 0 53.7 30.8 69.2 61.3-10 3-20.7 4.2-32.7 4.2-75 0-107.5-53-107.5-156.7C97.5 124.5 130 71 205 71c76.2 0 108.7 53.5 108.7 157.7.1 41.8-5.4 75.6-16.7 100.5z" /></svg>
-              </a>
-
-              <ReactTooltip id="my-tooltip-4" place="bottom" content="Quora" />
             </div>
 
             <div className="social__information">
@@ -192,6 +205,24 @@ export const AboutMe = () => {
             </div>
 
             <div className="social__information">
+              <a data-tooltip-id="my-tooltip-14" href="https://wa.me/+917391017360" target="_blank" rel="noopener noreferrer">
+                {/* <svg role="img" className="contact__icon contact__icon__position contact__icon__adjust" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title /><path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.285.18.046.149.034.255-.036.315l-6.555 6.344 6.836 8.507c.095.104.117.208.07.358" /></svg> */}
+                <i className="uil uil-whatsapp contact__icon"></i>
+              </a>
+
+              <ReactTooltip id="my-tooltip-14" place="bottom" content="Whatsapp" />
+            </div>
+
+            <div className="social__information">
+              <a data-tooltip-id="my-tooltip-15" href="https://g.dev/meetshubhamkumarhere" target="_blank" rel="noopener noreferrer">
+                {/* <svg role="img" className="contact__icon contact__icon__position contact__icon__adjust" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title /><path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.285.18.046.149.034.255-.036.315l-6.555 6.344 6.836 8.507c.095.104.117.208.07.358" /></svg> */}
+                <i className="uil uil-arrow contact__icon"></i>
+              </a>
+
+              <ReactTooltip id="my-tooltip-15" place="bottom" content="Google Developer Profile" />
+            </div>
+
+            <div className="social__information">
               <a data-tooltip-id="my-tooltip-10" href="https://github.com/meetskhere" target="_blank" rel="noopener noreferrer">
                 <i className="uil uil-github-alt contact__icon"></i>
               </a>
@@ -209,6 +240,14 @@ export const AboutMe = () => {
             </div>
 
             <div className="social__information">
+              <a data-tooltip-id="my-tooltip-4" href="https://www.quora.com/profile/Shubham-Kumar-1134" target="_blank" rel="noopener noreferrer">
+                <svg className="contact__icon__position contact__icon contact__icon__adjust" viewBox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><path d="M440.5 386.7h-29.3c-1.5 13.5-10.5 30.8-33 30.8-20.5 0-35.3-14.2-49.5-35.8 44.2-34.2 74.7-87.5 74.7-153C403.5 111.2 306.8 32 205 32 105.3 32 7.3 111.7 7.3 228.7c0 134.1 131.3 221.6 249 189C276 451.3 302 480 351.5 480c81.8 0 90.8-75.3 89-93.3zM297 329.2C277.5 300 253.3 277 205.5 277c-30.5 0-54.3 10-69 22.8l12.2 24.3c6.2-3 13-4 19.8-4 35.5 0 53.7 30.8 69.2 61.3-10 3-20.7 4.2-32.7 4.2-75 0-107.5-53-107.5-156.7C97.5 124.5 130 71 205 71c76.2 0 108.7 53.5 108.7 157.7.1 41.8-5.4 75.6-16.7 100.5z" /></svg>
+              </a>
+
+              <ReactTooltip id="my-tooltip-4" place="bottom" content="Quora" />
+            </div>
+
+            <div className="social__information">
               <a data-tooltip-id="my-tooltip-12" href="https://meetshubhamkumarhere.wordpress.com" target="_blank" rel="noopener noreferrer">
                 <i className="uil uil-wordpress contact__icon"></i>
               </a>
@@ -222,24 +261,6 @@ export const AboutMe = () => {
               </a>
 
               <ReactTooltip id="my-tooltip-13" place="bottom" content="Medium" />
-            </div>
-
-            <div className="social__information">
-              <a data-tooltip-id="my-tooltip-14" href="https://wa.me/+917391017360" target="_blank" rel="noopener noreferrer">
-                {/* <svg role="img" className="contact__icon contact__icon__position contact__icon__adjust" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title /><path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.285.18.046.149.034.255-.036.315l-6.555 6.344 6.836 8.507c.095.104.117.208.07.358" /></svg> */}
-                <i className="uil uil-whatsapp contact__icon"></i>
-              </a>
-
-              <ReactTooltip id="my-tooltip-14" place="bottom" content="Whatsapp" />
-            </div>
-
-            <div className="social__information">
-              <a data-tooltip-id="my-tooltip-15" href="https://g.dev/meetshubhamkumarhere" target="_blank" rel="noopener noreferrer">
-                {/* <svg role="img" className="contact__icon contact__icon__position contact__icon__adjust" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title /><path d="M18.825 23.859c-.022.092-.117.141-.281.141h-3.139c-.187 0-.351-.082-.492-.248l-5.178-6.589-1.448 1.374v5.111c0 .235-.117.352-.351.352H5.505c-.236 0-.354-.117-.354-.352V.353c0-.233.118-.353.354-.353h2.431c.234 0 .351.12.351.353v14.343l6.203-6.272c.165-.165.33-.246.495-.246h3.239c.144 0 .236.06.285.18.046.149.034.255-.036.315l-6.555 6.344 6.836 8.507c.095.104.117.208.07.358" /></svg> */}
-                <i className="uil uil-arrow contact__icon"></i>
-              </a>
-
-              <ReactTooltip id="my-tooltip-15" place="bottom" content="Google Developer Profile" />
             </div>
 
           </div>

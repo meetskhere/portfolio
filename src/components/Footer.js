@@ -11,7 +11,7 @@ export const Footer = () => {
         <div className="footer__container container grid">
           <div>
             <h1><a className="footer__title" href="https://www.linkedin.com/in/arpankumar007/" target="_blank" >Arpan Kumar</a></h1>
-            <span className="footer__subtitle">Full Stack Developer</span>
+            <span className="footer__subtitle">Full Stack Web Developer</span>
           </div>
 
           <ul className="footer__links">

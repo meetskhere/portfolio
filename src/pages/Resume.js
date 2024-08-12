@@ -61,7 +61,7 @@ export const Resume = () => {
 
               {/* <!--==================== QUALIFICATION CONTENT 1 ====================--> */}
               <section className="academic section category__sections_first">
-                <h2 className="section__title">EDUCATIONAL QUALIFICATION</h2>
+                <h2 className="section__title">EDUCATIONAL QUALIFICATIONS</h2>
                 <span className="section__subtitle">Degrees Earned, Wisdom Gained.</span>
 
                 <QualificationTable education={JsonAcademicData.education} />
@@ -71,7 +71,7 @@ export const Resume = () => {
               {/* <!--==================== QUALIFICATION CONTENT 2 ====================--> */}
               <section className='section'>
                 <h2 className="section__title">PROJECTS & INTERNSHIPS</h2>
-                <span className="section__subtitle">My projects and internships at a glance</span>
+                <span className="section__subtitle">My Projects and Internships at a Glance.</span>
                 <Qualification projects={JsonAcademicData.projects}/>
               </section>
 
@@ -88,7 +88,7 @@ export const Resume = () => {
               {/* <!--==================== QUALIFICATION CONTENT 4 ====================--> */}
               <section className="interests section">
                 <h2 className="section__title">AREAS OF INTERESTS</h2>
-                <span className="section__subtitle">Intrigues That Fuel My Inner Fire.</span>
+                <span className="section__subtitle">Intrigues That Fuel My Inner Fire During UG Days!</span>
 
                 <BulletCard icon="uil uil-lightbulb" data={JsonAcademicData.areas_of_interest} />
               </section>
@@ -120,7 +120,7 @@ export const Resume = () => {
               {/* <!--==================== QUALIFICATION CONTENT 1 ====================--> */}
               <section className="interests section category__sections_first ">
                 <h2 className="section__title">ROLE & WORK EXPERIENCE</h2>
-                <span className="section__subtitle">My Industrial Experience at glance</span>
+                <span className="section__subtitle">My Industrial Experience at a Glance.</span>
 
                 <Experience data={JsonIndustrialData} />
               </section>
@@ -128,7 +128,7 @@ export const Resume = () => {
               {/* <!--==================== QUALIFICATION CONTENT 2 ====================--> */}
               <section className="interests section">
                 <h2 className="section__title">PROJECTS UNDERTAKEN</h2>
-                <span className="section__subtitle">More Details on my Industrial Experience</span>
+                <span className="section__subtitle">Know More About my Corporate Experience.</span>
 
                 <DetailExperienceModal data={JsonIndustrialData} />
 

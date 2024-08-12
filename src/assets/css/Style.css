@@ -73,6 +73,10 @@ img {
   padding: 2rem 0 4rem;
 }
 
+.section .section__title:hover {
+  color: var(--first-color);
+}
+
 .section:last-child {
   padding-bottom: 0;
 }
@@ -142,20 +146,32 @@ img {
 
 /*==================== NAV ====================*/
 .username {
-  position: relative;
-  top: -15px;
+  position: absolute;
+  display: flex;
+  top: 6px;
 }
 
 .username__icon {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
+  height: 70px;
+  font-family: CloisterBlack;
+  font-size: 2.8em;
+  border: 1px solid black;
+  width: 70px;
+  border-radius: 100%;
+  text-align: center;
+  right: 5%;
+  position: relative;
+  transition: .5s;
+}
+
+.username__icon:hover,
+.username__title:hover {
+  color: var(--first-color-alt);
 }
 
 .username__title {
-  position: relative;
-  top: -20px;
-  padding: 10px;
+  margin-top: 17px;
+  transition: .5s;
 }
 
 .nav {
@@ -253,6 +269,10 @@ img {
 }
 
 /*==================== HOME ====================*/
+.home {
+  height: 100vh;
+}
+
 .home__container {
   gap: 1rem;
 }
@@ -309,17 +329,23 @@ img {
 }
 
 .home__scroll {
-  display: none;
   text-align: center;
-
+  position: relative;
+  top: 5em;
 }
 
 .home__scroll-button {
   color: var(--first-color);
-  transition: .3s;
   cursor: pointer;
   background: none;
   border: none;
+  display: block;
+  /* Ensure the button is visible */
+  margin: 0 auto;
+  /* Center button horizontally */
+  animation: scrollUpDown 2s infinite;
+  /* Apply animation */
+  transition: .3s;
 }
 
 .home__scroll-button:hover {
@@ -341,6 +367,23 @@ img {
 .home__scroll-arrow {
   font-size: 1.25rem;
 }
+
+/* Keyframes for the scrolling animation */
+@keyframes scrollUpDown {
+  0% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(20px);
+    /* Adjust the distance */
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 
 /*==================== BUTTONS ====================*/
 .button {
@@ -406,6 +449,17 @@ img {
   margin-bottom: var(--mb-2-5);
 }
 
+.read {
+  font-size: 16px;
+  color: var(--first-color);
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.read:hover {
+  color: var(--first-color-alt);
+}
+
 .about__info {
   display: flex;
   justify-content: space-evenly;
@@ -416,7 +470,13 @@ img {
   font-size: var(--h2-font-size);
   font-weight: var(--font-semi-bold);
   color: var(--title-color);
-  transition: 1s;
+  transition: .5s;
+  cursor: default;
+}
+
+.about__info-title:hover {
+  color: var(--first-color-alt);
+  transform: scale(1.5);
 }
 
 .about__info-name {
@@ -986,6 +1046,11 @@ img {
   transition: .5s;
 }
 
+.time {
+  margin-top: auto;
+  padding-bottom: 1em;
+}
+
 .react-tooltip:visited {
   visibility: hidden;
   content: "";
@@ -1006,7 +1071,7 @@ img {
 }
 
 .company-name {
-  margin-top: auto;
+  /* margin-top: auto; */
   justify-content: center;
   background-color: var(--first-color);
   margin-left: -41px;
@@ -1314,13 +1379,42 @@ img {
 .qr__code__info {
   display: grid;
   justify-content: center;
+  position: relative;
+  /* Ensure the relative positioning of the parent container */
 }
 
 .qr-code {
   width: 320px;
   height: 320px;
   margin: var(--mb-2) 0;
+  z-index: 2;
 }
+
+.tray {
+  position: absolute;
+  /* Absolute positioning to control sliding */
+  top: 40%;
+  left: 40%;
+  /* Initially off-screen to the right, adjust if needed */
+  background-color: var(--first-color);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20%;
+  /* Adjust as needed */
+  width: 80%;
+  /* Tray width */
+  transform: rotate(90deg);
+  transition: 0.5s ease;
+  font-size: 2em;
+}
+
+.qr__code__info:hover .tray {
+  left: 59%;
+  /* Slide the tray in on hover */
+}
+
 
 @media screen and (max-width: 920px) {
   .contact__container {
@@ -1656,7 +1750,15 @@ img {
   }
 
   .section {
-    padding: 6rem 0 2rem;
+    padding: 7rem 0 2rem;
+  }
+
+  .section__01 {
+    padding: 0;
+  }
+
+  .section__02 {
+    padding-bottom: 0;
   }
 
   .section__subtitle {
@@ -1820,21 +1922,24 @@ img {
     margin-top: 4.5rem;
   }
 }
-@media screen and (min-width: 1270px){
+
+@media screen and (min-width: 1270px) {
   .home__social {
     position: relative;
     left: 0;
     padding: 10px;
-    
-    
+
+
   }
 }
-@media screen and (min-width: 1075px){
+
+@media screen and (min-width: 1075px) {
   .home__social {
     transform: translateX(-1.5rem);
-    
+
   }
 }
+
 /* For large devices */
 @media screen and (min-width: 1024px) {
 

@@ -27,7 +27,7 @@ export const Modal = ({ data }) => {
                     </div>
 
                     <span className="button button--flex button--small button--link services__button" onClick={() => toggleModal(index1)}>
-                        View More
+                        Read More
                         <i className="uil uil-arrow-right button__icon"></i>
                     </span>
 

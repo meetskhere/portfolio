@@ -52,7 +52,7 @@
 	],
 	"achievements": {
 		"scholastic": [
-			"Selected in top 0.1% students in the JEE-Mains 2014",
+			"Selected in top 0.1% students in the JEE-Mains 2014 and top 1% in JEE-Advanced 2014",
 			"Among the top-25 candidates in the State-level Engineering Entrance Exam: Assam CEE 2014",
 			"Selected for INSPIRE Winter Science Camp 2010 in Class IX hosted by IIT Guwahati for class IX, X toppers",
 			"Secured first rank consistently for 2003-2011 (before dropping out in 2011) in the Annual Art Examinations conducted by Art Training Centre, Guwahati, Assam affiliated under Bangiya Sangeet Parishad, Kolkata, West Bengal",
@@ -95,16 +95,16 @@
 			"description": "Made a simple IoT based Vibration and Temperature detection module; send the generated data to the computer using MCU ATMega328 PU via serial to USB connector, for sending the data on the Internet for displaying real-time signal variation and its data analysis. Status: Completed."
 		},
 		{
-			"name": "AIDE- A SMART GOGGLE",
+			"name": "AIDE - A SMART GOGGLE",
 			"duration": "OCTOBER, 2016 - JUNE, 2018",
 			"period": "1 year & 9 months",
 			"description": "It is a wearable Smart Goggle System, it is an assistant (or helper), to perform simple tasks just by doing eye movements. Status: Completed"
 		},
 		{
-			"name": "INTERNSHIP: ELECTRONIC & RADAR DEVELOPMENT ESTABLISHMENT (DRDO), BENGALURU",
+			"name": "INTERNSHIP: ELECTRONIC & RADAR DEVELOPMENT ESTABLISHMENT (LRDE), DRDO LABS, BENGALURU",
 			"duration": "MAY-JULY, 2017",
 			"period": "3 months",
-			"description": "We build an FMCW based RADAR Design for Object’s position and velocity  Detection in 2D along with building the Graphical User Interface (GUI) of the MATLAB App (My RADAR) & tested the corresponding algorithms in Simulink Environment. Status: Completed."
+			"description": "We build an FMCW based RADAR Design for Object’s position and velocity  Detection in 2D along with building the Graphical User Interface (GUI) of the MATLAB App (My RADAR) & tested the corresponding algorithms in Simulink Environment. Worked with Scientist Paramananda Jena. Status: Completed."
 		},
 		{
 			"name": "B. TECH. (H) PROJECT: IOT-BASED AUTO-TRANSLATION OF GESTURE ANIMATION SYNTHESIS SYSTEM FOR BODY AREA NETWORK (BAN)",

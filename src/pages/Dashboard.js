@@ -21,11 +21,13 @@ export const Dashboard = () => {
     const scrollRef = useRef(null);
 
     const scrollToSection = () => {
-        // Scroll to the top position of the target section when the button is clicked
-        if (scrollRef.current) {
-            scrollRef.current.scrollIntoView({ behavior: 'smooth' });
-        }
+        // Scroll to 10 pixels from the top of the page
+        window.scrollTo({
+            top: 850,
+            behavior: 'smooth' // Smooth scrolling effect
+        });
     };
+    
 
     return (
         <>
@@ -34,7 +36,7 @@ export const Dashboard = () => {
             <div className="dashboard">
                 <div className="dashboard__home">
 
-                    <section className="home section" id="home">
+                    <section className="home section section__02" id="home">
                         <div className="home__container container grid">
                             <div className="home__content grid">
                                 <div className="home__social">
@@ -87,7 +89,7 @@ export const Dashboard = () => {
                                     </h1>
                                     <h3 className="home__subtitle">{JsonAcademicData.title}</h3>
                                     <p className="home__description">{JsonPortfolio.brief_summary}</p>
-                                    <Link to="/aboutMe#contact" className="button button--flex">
+                                    <Link to="/portfolio/profile#social" className="button button--flex">
                                         Contact Me <i className="uil uil-message button__icon"></i>
                                     </Link>
                                 </div>
@@ -114,8 +116,8 @@ export const Dashboard = () => {
                     </section> */}
 
                     {/* <!--==================== PORTFOLIO ====================--> */}
-                    <section className="portfolio section" id="portfolio" ref={scrollRef}>
-                        <h2 className="section__title">PORTFOLIO</h2>
+                    <section className="portfolio section section__01" id="portfolio" ref={scrollRef}>
+                        <h2 className="section__title">ARTICLES</h2>
                         <span className="section__subtitle">My most recent work...</span>
 
                         <Slides data={JsonPortfolio} />

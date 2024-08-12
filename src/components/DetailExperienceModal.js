@@ -39,15 +39,17 @@ export const DetailExperienceModal = ({ data }) => {
 
                         </ul>
 
-                        <h4 className='services__period'>{detail.period}</h4>
-                        <h4 className='services__duration'>{detail.duration}</h4>
+                        <span className="button button--flex button--small button--link services__button" onClick={() => toggleModal(index1)}>
+                            My Contributions
+                            <i className="uil uil-arrow-right button__icon"></i>
+                        </span>
 
                     </div>
+                    <div className="time">
+                        <h4 className='services__period'>{detail.period}</h4>
+                        <h4 className='services__duration'>{detail.duration}</h4>
+                    </div>
 
-                    <span className="button button--flex button--small button--link services__button" onClick={() => toggleModal(index1)}>
-                        My Contribution
-                        <i className="uil uil-arrow-right button__icon"></i>
-                    </span>
 
                     <div className='list list-pd-1 list-white company-name'>
                         {/* <i className="uil uil-check-circle services__modal-icon"></i> */}
@@ -69,7 +71,7 @@ export const DetailExperienceModal = ({ data }) => {
                             </ul>
                         </div>
                     </div>
-                    
+
                 </div>
             ))}
         </div>
