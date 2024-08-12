@@ -1752,6 +1752,10 @@ img {
     padding: 7rem 0 2rem;
   }
 
+  .section__01{
+    padding-bottom: 0;
+  }
+
   .section__subtitle {
     margin-bottom: 4rem;
   }

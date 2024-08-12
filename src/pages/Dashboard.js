@@ -21,11 +21,10 @@ export const Dashboard = () => {
     const scrollRef = useRef(null);
 
     const scrollToSection = () => {
-        // Scroll to 10 pixels from the top of the page
-        window.scrollTo({
-            top: 850,
-            behavior: 'smooth' // Smooth scrolling effect
-        });
+        // Scroll to the top position of the target section when the button is clicked
+        if (scrollRef.current) {
+            scrollRef.current.scrollIntoView({ behavior: 'smooth' });
+        }
     };
     
 
@@ -36,7 +35,7 @@ export const Dashboard = () => {
             <div className="dashboard">
                 <div className="dashboard__home">
 
-                    <section className="home section" id="home">
+                    <section className="home section section__01" id="home">
                         <div className="home__container container grid">
                             <div className="home__content grid">
                                 <div className="home__social">
