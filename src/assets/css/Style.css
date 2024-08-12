@@ -170,7 +170,9 @@ img {
 }
 
 .username__title {
-  margin-top: 17px;
+  position: relative;
+  top: 22px;
+  height:fit-content;
   transition: .5s;
 }
 
@@ -269,9 +271,6 @@ img {
 }
 
 /*==================== HOME ====================*/
-.home {
-  height: 100vh;
-}
 
 .home__container {
   gap: 1rem;
@@ -331,7 +330,7 @@ img {
 .home__scroll {
   text-align: center;
   position: relative;
-  top: 5em;
+  margin-top: 3em;
 }
 
 .home__scroll-button {
@@ -1751,14 +1750,6 @@ img {
 
   .section {
     padding: 7rem 0 2rem;
-  }
-
-  .section__01 {
-    padding: 0;
-  }
-
-  .section__02 {
-    padding-bottom: 0;
   }
 
   .section__subtitle {

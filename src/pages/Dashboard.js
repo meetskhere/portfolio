@@ -36,7 +36,7 @@ export const Dashboard = () => {
             <div className="dashboard">
                 <div className="dashboard__home">
 
-                    <section className="home section section__02" id="home">
+                    <section className="home section" id="home">
                         <div className="home__container container grid">
                             <div className="home__content grid">
                                 <div className="home__social">
@@ -116,7 +116,7 @@ export const Dashboard = () => {
                     </section> */}
 
                     {/* <!--==================== PORTFOLIO ====================--> */}
-                    <section className="portfolio section section__01" id="portfolio" ref={scrollRef}>
+                    <section className="portfolio section" id="portfolio" ref={scrollRef}>
                         <h2 className="section__title">ARTICLES</h2>
                         <span className="section__subtitle">My most recent work...</span>
 
