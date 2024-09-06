@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.21e8722f.css",
-    "main.js": "/portfolio/static/js/main.b5a86bbd.js",
+    "main.css": "/portfolio/static/css/main.a8b4a27e.css",
+    "main.js": "/portfolio/static/js/main.d6f3b4cf.js",
+    "static/media/User.jpg": "/portfolio/static/media/User.22b72abb20e315c47c3b.jpg",
     "static/media/User_noBackground.png": "/portfolio/static/media/User_noBackground.692f39f5abe3ed23e30b.png",
     "static/media/CV.pdf": "/portfolio/static/media/CV.a1e2a652026401b2ae7e.pdf",
     "static/media/vcard.vcf": "/portfolio/static/media/vcard.0a4c3b736ac53b9f6276.vcf",
-    "static/media/User.jpg": "/portfolio/static/media/User.36cd59f76ceeb9277d06.jpg",
     "static/media/img4.jpg": "/portfolio/static/media/img4.dc970a3b864a7289b31f.jpg",
     "static/media/CloisterBlack.ttf": "/portfolio/static/media/CloisterBlack.0a8dea1a656175f7a896.ttf",
     "static/media/img7.jpg": "/portfolio/static/media/img7.11189e06990a321061bf.jpg",
@@ -17,11 +17,11 @@
     "static/media/003-curriculum-vitae.png": "/portfolio/static/media/003-curriculum-vitae.f033bb2896a043a5f170.png",
     "static/media/Wikipedia.svg": "/portfolio/static/media/Wikipedia.b1d901e6680a1d04ad39ee145f75c9ec.svg",
     "index.html": "/portfolio/index.html",
-    "main.21e8722f.css.map": "/portfolio/static/css/main.21e8722f.css.map",
-    "main.b5a86bbd.js.map": "/portfolio/static/js/main.b5a86bbd.js.map"
+    "main.a8b4a27e.css.map": "/portfolio/static/css/main.a8b4a27e.css.map",
+    "main.d6f3b4cf.js.map": "/portfolio/static/js/main.d6f3b4cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.21e8722f.css",
-    "static/js/main.b5a86bbd.js"
+    "static/css/main.a8b4a27e.css",
+    "static/js/main.d6f3b4cf.js"
   ]
 }
