@@ -1,29 +1,33 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export const Skill = ({ data }) => {
-    const [openSection, setOpenSection] = useState();
-    const [openDetails, setOpenDetails] = useState(); // Initialize with the same index value
+    const [openSection, setOpenSection] = useState([]); // For toggling sections
+    const [openDetails, setOpenDetails] = useState({}); // For toggling details in each section
+
+    // Set default open state for all sections
+    useEffect(() => {
+        setOpenSection(data.map((_, index) => index)); // Open all sections by default
+    }, [data]);
 
     const toggleSkills = (index) => {
-        if (openSection === index) {
-            setOpenSection(null);
+        if (openSection.includes(index)) {
+            setOpenSection(openSection.filter((sectionIndex) => sectionIndex !== index)); // Close section
         } else {
-            setOpenSection(index);
+            setOpenSection([...openSection, index]); // Open section
         }
     };
 
-    const toggleDetails = (skillIndex) => {
-        if (openDetails === skillIndex) {
-            setOpenDetails(null);
-        } else {
-            setOpenDetails(skillIndex);
-        }
+    const toggleDetails = (sectionIndex, skillIndex) => {
+        setOpenDetails((prevDetails) => ({
+            ...prevDetails,
+            [sectionIndex]: prevDetails[sectionIndex] === skillIndex ? null : skillIndex, // Toggle details for a specific section
+        }));
     };
 
     return (
         <div className="grid container skills__container">
             {data.map((section, index) => (
-                <div key={index} className={`skills__content ${openSection === index ? 'skills__open' : 'skills__close'}`}>
+                <div key={index} className={`skills__content ${openSection.includes(index) ? 'skills__open' : 'skills__close'}`}>
                     <div className="skills__header" onClick={() => toggleSkills(index)}>
                         <i className="uil uil-brackets-curly skills__icon"></i>
                         <div>
@@ -36,7 +40,7 @@ export const Skill = ({ data }) => {
                         {section.skills.map((skill, skillIndex) => (
                             <div className="skills__data" key={skillIndex}>
                                 <div className='skill__details'>
-                                    <div className='skills__lists__header' onClick={() => toggleDetails(skillIndex)}>
+                                    <div className='skills__lists__header' onClick={() => toggleDetails(index, skillIndex)}>
                                         <div className='skill__lists__header'>
                                             <div className="skills__titles">
                                                 <h3 className="skills__name">{skill.name}</h3>
@@ -46,13 +50,12 @@ export const Skill = ({ data }) => {
                                                 <span className={`skills__percentage skills__${skill.name.toLowerCase()}`} style={{ width: skill.percentage }}></span>
                                             </div>
                                         </div>
-                                        <i className={`uil skills__arrow__sub ${openDetails === skillIndex ? 'uil-angle-up' : 'uil-angle-down'}`}></i>
+                                        <i className={`uil skills__arrow__sub ${openDetails[index] === skillIndex ? 'uil-angle-up' : 'uil-angle-down'}`}></i>
                                     </div>
                                 </div>
                                 {skill.details && skill.details.length > 0 && (
                                     <div className="skills__details">
-
-                                        {openDetails === skillIndex && skill.details && skill.details.length > 0 && (
+                                        {openDetails[index] === skillIndex && skill.details.length > 0 && (
                                             <div className='skill__list grid'>
                                                 {skill.details.map((detail, detailIndex) => {
                                                     if ('application' in detail) {
@@ -88,7 +91,6 @@ export const Skill = ({ data }) => {
                                                 })}
                                             </div>
                                         )}
-
                                     </div>
                                 )}
                             </div>

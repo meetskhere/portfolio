@@ -19,8 +19,6 @@ export const Slides = ({ data }) => {
     const descriptions = data.content.description || [];
     const links = data.content.link || [];
 
-    console.log(slides)
-
     return (
         <>
             <Swiper

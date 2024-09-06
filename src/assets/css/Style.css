@@ -172,7 +172,7 @@ img {
 .username__title {
   position: relative;
   top: 22px;
-  height:fit-content;
+  height: fit-content;
   transition: .5s;
 }
 
@@ -453,6 +453,7 @@ img {
   color: var(--first-color);
   cursor: pointer;
   margin-left: 5px;
+  font-weight: bold;
 }
 
 .read:hover {
@@ -1298,12 +1299,20 @@ img {
   margin-top: var(--mb-2);
 }
 
-.contact__icon {
-  font-size: 2rem;
-  color: var(--first-color);
+.contact__icon, .contact__icon2 {
   margin-right: var(--mb-0-75);
   cursor: pointer;
   padding-top: 10px;
+}
+
+.contact__icon {
+  color: var(--first-color);
+  font-size: 2rem;
+}
+
+.contact__icon2 {
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 .contact__icon__adjust {
@@ -1375,12 +1384,16 @@ img {
   position: relative;
   /* Ensure the relative positioning of the parent container */
 }
+.qr__code__info a{
+  height: 0; 
+}
 
 .qr-code {
   width: 320px;
   height: 320px;
   margin: var(--mb-2) 0;
   z-index: 2;
+ cursor: pointer;
 }
 
 .tray {
@@ -1529,6 +1542,37 @@ img {
   color: #fff;
 }
 
+.dev__info,
+.contact__phone,
+.contact__email {
+  font-size: var(--small-font-size);
+  color: var(--text-color-light2);
+}
+.dev__contact{
+  margin-top: 1em;
+}
+.contact__phone, .contact__email{
+  position: relative;
+  top: -2px;
+}
+.dev__socialMedia{
+  display: flex;
+  flex-direction: row;
+  margin-top: 3em;
+  gap: 1.5em;
+  height: 5em;
+}
+
+.copyright__header, .copyright__paragraph, .copyright__link{
+  color: #fff;
+}
+
+.copyright__paragraph, .copyright__link{
+  font-size: 15px;
+}
+.copyright__link{
+  font-weight: bold;
+}
 /*========== SCROLL UP ==========*/
 .scrollup {
   position: fixed;
@@ -1746,7 +1790,7 @@ img {
     padding: 7rem 0 2rem;
   }
 
-  .section__01{
+  .section__01 {
     padding-bottom: 0;
   }
 

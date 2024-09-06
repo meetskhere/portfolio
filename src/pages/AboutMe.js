@@ -118,7 +118,8 @@ export const AboutMe = () => {
           </div>
 
           <div className="qr__code__info">
-            <img className="qr-code" src={qr_code_src} alt="" srcSet="" />
+            {/* <a href="https://linko.page/meetskhere" target="_blank"></a> */}
+            <img className="qr-code" src={qr_code_src} onClick={() => window.open('https://linko.page/meetskhere', '_blank', 'noopener,noreferrer')} alt="" srcSet="" />
             <div className="tray">
               <span>Scan Me</span>
             </div>
@@ -180,7 +181,7 @@ export const AboutMe = () => {
             <div className="social__information">
               <a data-tooltip-id="my-tooltip-7" href="https://www.youtube.com/@meetskhere" target="_blank" rel="noopener noreferrer">
                 {/* <svg role="img" className="contact__icon contact__icon__position contact__icon__adjust" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title /><path d="M17.144 20.572H3.43C3.43 22.465 4.963 24 6.856 24h10.286c1.893 0 3.428-1.535 3.428-3.428V6.492c0-.07-.054-.125-.124-.125h-3.18c-.067 0-.123.056-.123.126v14.08zm0-20.572c1.892 0 3.427 1.535 3.427 3.43H6.858v14.078c0 .068-.056.125-.125.125H3.554c-.07 0-.125-.057-.125-.125V3.428C3.43 1.536 4.963 0 6.856 0h10.287" /></svg> */}
-                <i class="uil uil-youtube contact__icon"></i>
+                <i className="uil uil-youtube contact__icon"></i>
               </a>
 
               <ReactTooltip id="my-tooltip-7" place="bottom" content="Youtube" />
@@ -233,7 +234,7 @@ export const AboutMe = () => {
             <div className="social__information">
               <a data-tooltip-id="my-tooltip-11" href="https" target="_blank" rel="noopener noreferrer">
                 {/* <svg className="contact__icon contact__icon__position contact__icon__adjust" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title /><g id="Teamviewer"><path d="M8.71,15A.5.5,0,0,0,9,14.5v-1h6v1a.5.5,0,0,0,.82.38l3-2.5a.5.5,0,0,0,0-.77l-3-2.5A.5.5,0,0,0,15,9.5v1H9v-1a.5.5,0,0,0-.82-.38l-3,2.5a.5.5,0,0,0,0,.77l3,2.5A.5.5,0,0,0,8.71,15Z" /><path d="M21,1H3A2,2,0,0,0,1,3V21a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V3A2,2,0,0,0,21,1ZM12,3a9,9,0,1,1-9,9A9,9,0,0,1,12,3Z" /></g></svg> */}
-                <i class="fab fa-stack-exchange contact__icon"></i>
+                <i className="fab fa-stack-exchange contact__icon"></i>
               </a>
 
               <ReactTooltip id="my-tooltip-11" place="bottom" content="Stack Exchange" />
