@@ -188,7 +188,7 @@ export const AboutMe = () => {
             </div>
 
             <div className="social__information">
-              <a data-tooltip-id="my-tooltip-8" href="https://en.wikipedia.org/wiki/User%3AShubham_Kumar_365?wprov=sfla1" target="_blank" rel="noopener noreferrer">
+              <a data-tooltip-id="my-tooltip-8" href="https://en.wikipedia.org/wiki/User%3AShubham_Kumar_365" target="_blank" rel="noopener noreferrer">
                 {/* <svg style={{ transform: "scale(1.5)" }} className="contact__icon contact__icon__position contact__icon__adjust " version="1.0" xmlns="http://www.w3.org/2000/svg" height="100%" width="100%" viewBox="0 0 240.000000 240.000000" preserveAspectRatio="xMidYMid meet"><g transform="translate(0.000000,240.000000) scale(0.100000,-0.100000)" stroke="none"><path d="M638 1949 c-87 -45 -92 -169 -10 -228 66 -47 158 -36 212 25 24 28 30 44 30 79 0 41 -2 45 -25 45 -28 0 -31 9 -12 29 10 11 7 12 -18 7 l-29 -7 19 21 20 22 -35 -7 c-30 -7 -33 -6 -22 7 6 8 9 18 5 21 -14 14 -99 5 -135 -14z" /> <path d="M1335 1945 c-169 -37 -355 -145 -491 -287 -92 -95 -139 -179 -154 -273 -5 -33 -14 -76 -20 -95 -17 -60 -12 -174 11 -235 52 -139 198 -269 434 -385 124 -61 449 -181 487 -179 7 0 -59 24 -147 54 -336 111 -539 223 -673 369 -79 87 -105 151 -110 265 -2 53 -2 94 1 91 3 -3 15 -32 26 -64 64 -183 220 -319 506 -444 125 -54 148 -66 232 -123 78 -53 163 -103 163 -96 0 2 -37 27 -83 55 -46 28 -90 58 -98 68 -13 15 -12 16 11 9 330 -105 364 -110 205 -31 -289 144 -484 308 -596 503 -58 103 -75 230 -44 338 25 86 84 172 180 262 104 97 142 113 273 118 46 2 87 7 90 11 9 9 -167 -2 -192 -12 -42 -16 -3 17 59 52 36 19 65 38 65 40 0 8 -76 2 -135 -11z" /> <path d="M1450 1838 c-91 -54 -228 -149 -250 -173 -14 -16 3 -6 37 22 35 27 101 72 148 99 47 27 94 54 103 61 28 20 0 13 -38 -9z" /> <path d="M1095 1558 c-35 -41 -90 -136 -83 -143 2 -2 16 20 31 50 16 29 44 72 64 94 19 23 32 41 30 41 -3 0 -22 -19 -42 -42z" /><path d="M1610 535 c0 -7 101 -57 106 -53 2 2 -21 16 -51 31 -30 15 -55 25 -55 22z" /><path d="M1620 487 c9 -10 211 -59 217 -53 3 3 -3 8 -13 12 -10 3 -31 10 -45 16 -15 5 -44 11 -65 12 -22 2 -52 7 -69 11 -16 4 -28 5 -25 2z" /></g></svg> */}
                 <img className="contact__icon contact__icon__position contact__icon__adjust" src={wiki} alt="" />
               </a>
@@ -232,7 +232,7 @@ export const AboutMe = () => {
             </div>
 
             <div className="social__information">
-              <a data-tooltip-id="my-tooltip-11" href="https" target="_blank" rel="noopener noreferrer">
+              <a data-tooltip-id="my-tooltip-11" href="https://meta.stackexchange.com/users/1589469/meetskhere" target="_blank" rel="noopener noreferrer">
                 {/* <svg className="contact__icon contact__icon__position contact__icon__adjust" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title /><g id="Teamviewer"><path d="M8.71,15A.5.5,0,0,0,9,14.5v-1h6v1a.5.5,0,0,0,.82.38l3-2.5a.5.5,0,0,0,0-.77l-3-2.5A.5.5,0,0,0,15,9.5v1H9v-1a.5.5,0,0,0-.82-.38l-3,2.5a.5.5,0,0,0,0,.77l3,2.5A.5.5,0,0,0,8.71,15Z" /><path d="M21,1H3A2,2,0,0,0,1,3V21a2,2,0,0,0,2,2H21a2,2,0,0,0,2-2V3A2,2,0,0,0,21,1ZM12,3a9,9,0,1,1-9,9A9,9,0,0,1,12,3Z" /></g></svg> */}
                 <i className="fab fa-stack-exchange contact__icon"></i>
               </a>

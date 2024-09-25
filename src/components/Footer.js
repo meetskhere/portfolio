@@ -78,7 +78,7 @@ export const Footer = () => {
 
             <p className="copyright__paragraph">This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
 
-            <p className="copyright__paragraph">To know more click <a className="copyright__link" target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.html.">here</a></p>
+            <p className="copyright__paragraph">To know more, click <a className="copyright__link" target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.html">here</a></p>
           </div>
 
           {/* <ul className="footer__links">
@@ -108,7 +108,7 @@ export const Footer = () => {
           </div> */}
         </div>
 
-        <p className="footer__copy">&#169; Arpan 2024. All right reserved</p>
+        <p className="footer__copy">&#169; Arpan 2024. All right reserved.</p>
       </div>
     </footer>
   )

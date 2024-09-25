@@ -95,6 +95,8 @@ export const Header = () => {
       setActiveTab('resume');
     } else if (pathname === '/portfolio/profile') {
       setActiveTab('aboutMe');
+    } else if (pathname === '/portfolio/hobbies') {
+      setActiveTab('hobbies');
     } else {
       // Default to no active tab if the route doesn't match any tabs
       setActiveTab('');
@@ -137,21 +139,28 @@ export const Header = () => {
             <li className="nav__item">
               <NavLink className={`nav__link ${activeTab === 'dashboard' ? 'active-link' : ''}`} to="/portfolio">
                 <i className="uil uil-estate nav__icon"></i>
-                Dashboard
+                <p>Dashboard</p>
               </NavLink>
             </li>
 
             <li className="nav__item">
               <NavLink className={`nav__link ${activeTab === 'resume' ? 'active-link' : ''}`} to="/portfolio/resume">
                 <i className="uil uil-university nav__icon"></i>
-                Resume
+                <p>Resume</p>
+              </NavLink>
+            </li>
+
+            <li className="nav__item">
+              <NavLink className={`nav__link ${activeTab === 'hobbies' ? 'active-link' : ''}`} to="/portfolio/hobbies">
+                <i className="uil uil-lightbulb-alt nav__icon"></i>
+                <p>Hobbies</p>
               </NavLink>
             </li>
 
             <li className="nav__item">
               <NavLink className={`nav__link ${activeTab === 'aboutMe' ? 'active-link' : ''}`} to="/portfolio/profile">
                 <i className="uil uil-user nav__icon"></i>
-                Profile
+                <p>Profile</p>
               </NavLink>
             </li>
 

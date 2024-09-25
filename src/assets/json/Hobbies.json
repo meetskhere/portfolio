@@ -1,0 +1,32 @@
+{
+    "Poems": [
+        {
+            "title": "sdf",
+            "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae corporis quasi praesentium error rem qui doloremque, dolor dolorum ipsa sed! Et cum repudiandae natus, commodi ducimus praesentium dolore sapiente nostrum."
+        },
+        {
+            "title": "oiui",
+            "content": "sdxcvxcv"
+        }
+    ],
+    "Photography": [
+        {
+            "group": "Landscape",
+            "path": "photography/landscape/"
+        },
+        {
+            "group": "Wildlife",
+            "path": "photography/wildlife/"
+        }
+    ],
+    "Painting": [
+        {
+            "group": "Architecture",
+            "path": "painting/architecture"
+        },
+        {
+            "group": "Art",
+            "path": "painting/art"
+        }
+    ]
+}
