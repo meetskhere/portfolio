@@ -80,7 +80,7 @@ export const Hobbies = () => {
             <div className={`form__content qualification__active ${activeTab === 1 ? animationClass : ''} ${activeTab !== 1 ? 'hidden' : ''}`}>
               <section className="academic section category__sections_first">
                 <div className="poems">
-                  {hobbies.Poems.map((poem, index) => {
+                  {/* {hobbies.Poems.map((poem, index) => {
                     // Limit the preview text to 120 words
                     const previewText = poem.content.split(' ').slice(0, 10).join(' ');
                     const formattedText = poem.content.replace(/\n/g, '<br />');
@@ -102,7 +102,8 @@ export const Hobbies = () => {
                         </p>
                       </div>
                     );
-                  })}
+                  })} */}
+                  <p style={{textAlign: "center"}}>We will update it soon...</p>
                 </div>
               </section>
             </div>
