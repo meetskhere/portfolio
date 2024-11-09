@@ -1,10 +1,8 @@
-import { Link } from "react-router-dom"
 import { Tooltip as ReactTooltip } from "react-tooltip";
 
-import { UilFacebookF, UilInstagram, UilLinkedinAlt } from '@iconscout/react-unicons'
-
 import "../assets/css/Style.css"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+import JsonPortfolio from "../assets/json/Portfolio.json"
 
 export const Footer = () => {
   return (
@@ -12,7 +10,7 @@ export const Footer = () => {
       <div className="footer__bg">
         <div className="footer__container container grid">
           <div>
-            <h1><a className="footer__title" href="" target="_blank" >About Developer</a></h1>
+            <h1><a className="footer__title" target="_blank" rel="noreferrer">About Developer</a></h1>
             <div className="dev">
               <div className="dev__info">
                 <div className="dev__name">Arpan Kumar</div>
@@ -69,6 +67,7 @@ export const Footer = () => {
                   <ReactTooltip id="my-tooltip-104" place="bottom" content="Wordpress" />
                 </div>
               </div>
+              <div className="last_update">Site Last Updated On: <span>{JsonPortfolio.lastUpdateOn}</span></div>
             </div>
           </div>
 
@@ -78,7 +77,7 @@ export const Footer = () => {
 
             <p className="copyright__paragraph">This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.</p>
 
-            <p className="copyright__paragraph">To know more, click <a className="copyright__link" target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.html">here</a></p>
+            <p className="copyright__paragraph">To know more, click <a className="copyright__link" rel="noreferrer" target="_blank" href="https://www.gnu.org/licenses/gpl-3.0.html">here</a></p>
           </div>
 
           {/* <ul className="footer__links">

@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import { BulletCard, Cards, Experience, Footer, Header, Modal, Qualification, QualificationTable, ScrollUp, DetailExperienceModal } from "../components/index"
 
 import JsonAcademicData from "../assets/json/AcademicCV.json"
@@ -72,7 +72,7 @@ export const Resume = () => {
               <section className='section'>
                 <h2 className="section__title">PROJECTS & INTERNSHIPS</h2>
                 <span className="section__subtitle">My Projects and Internships at a Glance.</span>
-                <Qualification projects={JsonAcademicData.projects}/>
+                <Qualification projects={JsonAcademicData.projects} />
               </section>
 
               {/* <!--==================== QUALIFICATION CONTENT 3 ====================--> */}
@@ -111,6 +111,8 @@ export const Resume = () => {
 
               </section>
 
+              <div className="last_update_2">Page Last Updated On: <span>{JsonAcademicData.lastUpdateOn}</span></div>
+
             </div>
 
             {/* <!--==================== WORK QUALIFICATION CONTENT ====================--> */}
@@ -142,6 +144,8 @@ export const Resume = () => {
                 <DetailExperienceModal data={JsonIndustrialData} />
 
               </section> */}
+
+              <div className="last_update_2">Page Last Updated On: <span>{JsonIndustrialData.lastUpdateOn}</span></div>
 
             </div>
           </div>

@@ -4,9 +4,11 @@ export const Cards = ({ data }) => {
             {Object.entries(data).map(([title, description], index) => (
                 <div className="interest__tab" key={index}>
                     <div className="item_bg"></div>
-                    <h3 className="card__header">{title}</h3>
-                    <div className="card__description">
-                        {description}
+                    <div className="main__card">
+                        <h3 className="card__header">{title}</h3>
+                        <div className="card__description">
+                            {description}
+                        </div>
                     </div>
                 </div>
             ))}

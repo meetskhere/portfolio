@@ -679,18 +679,23 @@ img {
   color: white;
 }
 
+.main__card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  top: -150px;
+}
+
 .card__header {
   padding: 1rem 15px;
-  position: relative;
-  top: 0;
 }
 
 .card__description {
   padding: 0 15px;
 }
 
-.card__header,
-.card__description {
+.card__header, .card__description {
   position: relative;
   z-index: 99;
   transition: 0.5s;
@@ -745,7 +750,7 @@ img {
 
   .interest__tab {
     margin: 1rem;
-    height: 15rem;
+    height: 17em;
   }
 }
 
@@ -1696,6 +1701,20 @@ img {
 
 
 /*==================== FOOTER ====================*/
+.last_update{
+  color: #fff;
+  margin-top: 15px;
+}
+.last_update_2 span, 
+.last_update span{
+  font-weight: bold;
+}
+.last_update_2{
+  color: var(--text-color);
+  text-align: right;
+  position: relative;
+  bottom: -3em;
+}
 .footer {
   padding-top: 2rem;
 }
@@ -1776,7 +1795,7 @@ img {
 .dev__socialMedia {
   display: flex;
   flex-direction: row;
-  margin-top: 3em;
+  margin-top: 2em;
   gap: 1.5em;
   height: 5em;
 }
