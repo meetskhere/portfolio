@@ -10,7 +10,7 @@ export const DetailExperienceModal = ({ data }) => {
             ...modalOpen,
             [index]: !modalOpen[index],
         });
-    }
+    };
 
     return (
         <div className="grid services__container container">
