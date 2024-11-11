@@ -10,7 +10,7 @@ export const Footer = () => {
       <div className="footer__bg">
         <div className="footer__container container grid">
           <div>
-            <h1><a className="footer__title" target="_blank" rel="noreferrer">About Developer</a></h1>
+            <h1><a className="footer__title" target="_blank" rel="noreferrer">Designed With <i className="uil uil-heart contact__icon1"></i> By</a></h1>
             <div className="dev">
               <div className="dev__info">
                 <div className="dev__name">Arpan Kumar</div>

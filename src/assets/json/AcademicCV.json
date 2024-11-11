@@ -61,10 +61,9 @@
 		],
 		"non_scholastic": [
 			"Key member of the Badminton Team and played badminton tournaments for the Institute",
-			"Core Head of Events Management Team of Institute’s Alumni Cell",
-			"A former core member of the RISC (Robotics and Intelligent Systems Club), took part in many events organized in the Institute",
+			"A former Core Head of Events Management Team of Institute’s Alumni Cell",
+			"A former Core Member of the RISC (Robotics and Intelligent Systems Club), took part in many events organized in the Institute",
 			"Participates actively in online tutoring platform: EdX, Coursera and Udemy for courses on Electrical Engineering, standard C and C++ Programming etc.",
-			"Maintains my own blog at Wordpress.com: www.meetshubhamkumarhere.wordpress.com",
 			"Passionate Graphics Designer (especially interested at DTP) using software tools such as Adobe Photoshop, Adobe Illustrator, Adobe Fireworks, Adobe InDesign, Adobe InCopy and Adobe Acrobat Pro"
 		]
 	},
@@ -2018,12 +2017,7 @@
 		}
 	],
 	"other_activities": {
-		"Associate Team Member": "Actively worked for the Institute annual Techno-Management fest: Wissenaire under the Web & Design Team as the Graphics Designer",
-		"Badminton Team": "A Key Member of the Badminton Team and played badminton tournaments for the Institute",
-		"Events Management": "A Core Head of Events Management Team of Institute’s Alumni Cell",
-		"IIT BBS RISC Club": "A former core member of the RISC (Robotics and Intelligent Systems Club), took part in many events organized within and outside our Institute",
-		"Blog": "Maintains my own technical and personal blog at Medium and Wordpress respectively",
-		"2D Graphics Design": "A Passionate Graphics Designer of Magazine, Poster, Flyer, Product Brochure etc. using software tools such as Adobe Photoshop, Adobe Illustrator, Adobe Fireworks, Adobe InDesign, Adobe InCopy and Adobe Acrobat Pro"
+		"Associate Team Member": "Actively worked for the Institute annual Techno-Management fest: Wissenaire under the Web & Design Team as the Graphics Designer"
 	},
 	"lastUpdateOn": "May 2018"
 }
