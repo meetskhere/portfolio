@@ -89,13 +89,13 @@ export const Header = () => {
     const pathname = location.pathname;
 
     // Determine which tab should be active based on the pathname
-    if (pathname === '/portfolio') {
+    if (pathname === '/meetskhere') {
       setActiveTab('dashboard');
-    } else if (pathname === '/portfolio/resume') {
+    } else if (pathname === '/meetskhere/resume') {
       setActiveTab('resume');
-    } else if (pathname === '/portfolio/profile') {
+    } else if (pathname === '/meetskhere/profile') {
       setActiveTab('aboutMe');
-    } else if (pathname === '/portfolio/hobbies') {
+    } else if (pathname === '/meetskhere/hobbies') {
       setActiveTab('hobbies');
     } else {
       // Default to no active tab if the route doesn't match any tabs
@@ -113,7 +113,7 @@ export const Header = () => {
   return (
     <header className={`header ${scrolling ? 'scroll-header' : ''}`} id="header">
       <nav className="nav container">
-        <NavLink to="/portfolio" className="nav__logo">
+        <NavLink to="/meetskhere" className="nav__logo">
           <div className='username'>
             <p className="username__icon">{JsonAcademicData.name[0]}</p>
             {/* <img className="username__icon" src={profilepic} alt="" /> */}
@@ -137,28 +137,28 @@ export const Header = () => {
           <ul className="nav__list grid">
 
             <li className="nav__item">
-              <NavLink className={`nav__link ${activeTab === 'dashboard' ? 'active-link' : ''}`} to="/portfolio">
+              <NavLink className={`nav__link ${activeTab === 'dashboard' ? 'active-link' : ''}`} to="/meetskhere">
                 <i className="uil uil-estate nav__icon"></i>
                 <p>Dashboard</p>
               </NavLink>
             </li>
 
             <li className="nav__item">
-              <NavLink className={`nav__link ${activeTab === 'resume' ? 'active-link' : ''}`} to="/portfolio/resume">
+              <NavLink className={`nav__link ${activeTab === 'resume' ? 'active-link' : ''}`} to="/meetskhere/resume">
                 <i className="uil uil-university nav__icon"></i>
                 <p>Resume</p>
               </NavLink>
             </li>
 
             <li className="nav__item">
-              <NavLink className={`nav__link ${activeTab === 'hobbies' ? 'active-link' : ''}`} to="/portfolio/hobbies">
+              <NavLink className={`nav__link ${activeTab === 'hobbies' ? 'active-link' : ''}`} to="/meetskhere/hobbies">
                 <i className="uil uil-lightbulb-alt nav__icon"></i>
                 <p>Hobbies</p>
               </NavLink>
             </li>
 
             <li className="nav__item">
-              <NavLink className={`nav__link ${activeTab === 'aboutMe' ? 'active-link' : ''}`} to="/portfolio/profile">
+              <NavLink className={`nav__link ${activeTab === 'aboutMe' ? 'active-link' : ''}`} to="/meetskhere/profile">
                 <i className="uil uil-user nav__icon"></i>
                 <p>Profile</p>
               </NavLink>

@@ -91,7 +91,7 @@ export const Dashboard = () => {
                                     </h1>
                                     <h3 className="home__subtitle">{JsonAcademicData.title}</h3>
                                     <p className="home__description">{JsonPortfolio.brief_summary}</p>
-                                    <Link to="/portfolio/profile#social" className="button button--flex">
+                                    <Link to="/meetskhere/profile/#social" className="button button--flex">
                                         Contact Me <i className="uil uil-message button__icon"></i>
                                     </Link>
                                 </div>
