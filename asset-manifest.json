@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/ePortfolio/static/css/main.6adbac0c.css",
-    "main.js": "/ePortfolio/static/js/main.2f3083ca.js",
-    "static/media/User.jpg": "/ePortfolio/static/media/User.22b72abb20e315c47c3b.jpg",
-    "static/media/User_noBackground.png": "/ePortfolio/static/media/User_noBackground.692f39f5abe3ed23e30b.png",
-    "static/media/CV.pdf": "/ePortfolio/static/media/CV.a1e2a652026401b2ae7e.pdf",
-    "static/media/vcard.vcf": "/ePortfolio/static/media/vcard.0a4c3b736ac53b9f6276.vcf",
-    "static/media/img4.jpg": "/ePortfolio/static/media/img4.dc970a3b864a7289b31f.jpg",
-    "static/media/CloisterBlack.ttf": "/ePortfolio/static/media/CloisterBlack.0a8dea1a656175f7a896.ttf",
-    "static/media/img7.jpg": "/ePortfolio/static/media/img7.11189e06990a321061bf.jpg",
-    "static/media/img5.jpg": "/ePortfolio/static/media/img5.a4889d4bf2d20a5a1aca.jpg",
-    "static/media/img6.jpg": "/ePortfolio/static/media/img6.1a443ac02503000c1576.jpg",
-    "static/media/img1.jpg": "/ePortfolio/static/media/img1.b100f823e1d9a2e55cca.jpg",
-    "static/media/QR_CODE.png": "/ePortfolio/static/media/QR_CODE.2f7a6ba9581a4bc93f8b.png",
-    "static/media/21cfb6a0-0af6-4c9f-a0d1-8d23072b019e.png": "/ePortfolio/static/media/21cfb6a0-0af6-4c9f-a0d1-8d23072b019e.eb0cf04bf62a32f789fe.png",
-    "static/media/img3.jpg": "/ePortfolio/static/media/img3.e783db5cc2a8a3e5b6eb.jpg",
-    "static/media/003-curriculum-vitae.png": "/ePortfolio/static/media/003-curriculum-vitae.f033bb2896a043a5f170.png",
-    "static/media/Wikipedia.svg": "/ePortfolio/static/media/Wikipedia.b1d901e6680a1d04ad39ee145f75c9ec.svg",
-    "index.html": "/ePortfolio/index.html",
-    "main.6adbac0c.css.map": "/ePortfolio/static/css/main.6adbac0c.css.map",
-    "main.2f3083ca.js.map": "/ePortfolio/static/js/main.2f3083ca.js.map"
+    "main.css": "/portfolio/static/css/main.9e42c4d7.css",
+    "main.js": "/portfolio/static/js/main.e8111421.js",
+    "static/media/User.jpg": "/portfolio/static/media/User.22b72abb20e315c47c3b.jpg",
+    "static/media/User_noBackground.png": "/portfolio/static/media/User_noBackground.692f39f5abe3ed23e30b.png",
+    "static/media/CV.pdf": "/portfolio/static/media/CV.a1e2a652026401b2ae7e.pdf",
+    "static/media/vcard.vcf": "/portfolio/static/media/vcard.0a4c3b736ac53b9f6276.vcf",
+    "static/media/img4.jpg": "/portfolio/static/media/img4.dc970a3b864a7289b31f.jpg",
+    "static/media/CloisterBlack.ttf": "/portfolio/static/media/CloisterBlack.0a8dea1a656175f7a896.ttf",
+    "static/media/img7.jpg": "/portfolio/static/media/img7.11189e06990a321061bf.jpg",
+    "static/media/img5.jpg": "/portfolio/static/media/img5.a4889d4bf2d20a5a1aca.jpg",
+    "static/media/img6.jpg": "/portfolio/static/media/img6.1a443ac02503000c1576.jpg",
+    "static/media/img1.jpg": "/portfolio/static/media/img1.b100f823e1d9a2e55cca.jpg",
+    "static/media/QR_CODE.png": "/portfolio/static/media/QR_CODE.2f7a6ba9581a4bc93f8b.png",
+    "static/media/21cfb6a0-0af6-4c9f-a0d1-8d23072b019e.png": "/portfolio/static/media/21cfb6a0-0af6-4c9f-a0d1-8d23072b019e.eb0cf04bf62a32f789fe.png",
+    "static/media/img3.jpg": "/portfolio/static/media/img3.e783db5cc2a8a3e5b6eb.jpg",
+    "static/media/003-curriculum-vitae.png": "/portfolio/static/media/003-curriculum-vitae.f033bb2896a043a5f170.png",
+    "static/media/Wikipedia.svg": "/portfolio/static/media/Wikipedia.b1d901e6680a1d04ad39ee145f75c9ec.svg",
+    "index.html": "/portfolio/index.html",
+    "main.9e42c4d7.css.map": "/portfolio/static/css/main.9e42c4d7.css.map",
+    "main.e8111421.js.map": "/portfolio/static/js/main.e8111421.js.map"
   },
   "entrypoints": [
-    "static/css/main.6adbac0c.css",
-    "static/js/main.2f3083ca.js"
+    "static/css/main.9e42c4d7.css",
+    "static/js/main.e8111421.js"
   ]
 }
